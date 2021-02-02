@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btoom_action_bar_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@color/bottom_action_background</item>
+    </style>
+    <style name="actionbar_cardView_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+    <style name="discover_title_textStyle">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">center|start</item>
+        <item name="android:layout_marginStart">60dp</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="discover_title_textStyle2">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">center|start</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="overflow_icon_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center|end</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_marginEnd">17dp</item>
+        <item name="android:layout_marginBottom">17dp</item>
+    </style>
+    <style name="overflow_icon_style2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center|end</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_marginEnd">67dp</item>
+        <item name="android:layout_marginBottom">17dp</item>
+    </style>
+    <style name="discover_elements_cardView_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+</resources>
