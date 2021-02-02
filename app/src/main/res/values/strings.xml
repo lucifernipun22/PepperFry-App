@@ -3,4 +3,17 @@
     <string name="get_free_delivery"><![CDATA[& Get Free Delivery]]></string>
     <string name="on_your_first_order_over_abave_offers_on_site"><![CDATA[On Your First Order, Over & Abave Offers On Site]]></string>
     <string name="and"><![CDATA[&]]></string>
+    <string name="profile">PROFILE</string>
+    <string name="wishlist">WISHLIST</string>
+    <string name="alert">ALERT</string>
+    <string name="department">DEPARTMENT</string>
+    <string name="home">HOME</string>
+    <string name="furniture">Furniture</string>
+    <string name="living">Living</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="kids_room">Kids Room</string>
+    <string name="mattresses">Mattresses</string>
+    <string name="furnishing">Furnishing</string>
+    <string name="decor">Decor</string>
+    <string name="lighting">Lighting</string>
 </resources>
