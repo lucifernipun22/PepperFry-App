@@ -16,4 +16,11 @@
     <string name="furnishing">Furnishing</string>
     <string name="decor">Decor</string>
     <string name="lighting">Lighting</string>
+    <string name="furniture2">FURNITURE</string>
+    <string name="dining_bar"><![CDATA[Dining & Bar]]></string>
+    <string name="living2">LIVING</string>
+    <string name="bedroom2">BEDROOM</string>
+    <string name="kids_room2">KIDS ROOM</string>
+    <string name="decor">Decor</string>
+    <string name="lighting">Lighting</string>
 </resources>
