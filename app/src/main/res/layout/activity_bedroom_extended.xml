@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.DepartmentSection.BedroomExtended">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/ic_left_arrow"
+            android:padding="10dp" />
+        <ImageView
+            android:id="@+id/ivShoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_shopping_cart"
+            android:padding="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@id/ivShoppingCart"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_magnifiying_glass"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvFurniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/imBack"
+            android:text="BEDROOM"
+            android:layout_margin="15dp"
+            android:textColor="#D2000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Beds"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Mattresses"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Furnishings"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Tables"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Storage"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Decor"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Lighting"
+        android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.DepartmentSection.DepartmentsActivity">
+
+    <Button
+        android:id="@+id/btnfurniture"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="furniture" />
+
+    <Button
+        android:id="@+id/btnLiving"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="Living" />
+
+    <Button
+        android:id="@+id/btnBedRoom"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="Bed room " />
+
+    <Button
+        style="@style/Departments"
+        android:id="@+id/btnKidsRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="KIDS ROOM" />
+
+    <Button
+        android:id="@+id/btnMattresses"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="MATTRESSES" />
+
+    <Button
+        android:id="@+id/btnFurnishings"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="FURNISHINGS" />
+
+    <Button
+        android:id="@+id/btnDecor"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="DECOR" />
+
+    <Button
+        android:id="@+id/btnLightings"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="LIGHTING" />
+
+    <Button
+        android:id="@+id/btnModularFurniture"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="MODULAR FURNITURE" />
+
+    <Button
+        android:id="@+id/btnClearanceSale"
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow__1_"
+        android:text="CLEARANCE SALE" />
+
+</LinearLayout>
