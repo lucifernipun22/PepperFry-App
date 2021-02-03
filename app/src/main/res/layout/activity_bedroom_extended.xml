@@ -44,7 +44,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="BEDROOM"
+            android:text="@string/bed_room"
             android:layout_margin="15dp"
             android:textColor="#D2000000"
             android:textSize="16sp" />
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Beds"
+        android:text="@string/beds"
         android:textAllCaps="false" />
 
     <Button
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Furnishings"
+        android:text="@string/furnishings"
         android:textAllCaps="false" />
 
     <Button
@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Tables"
+        android:text="@string/tables"
         android:textAllCaps="false" />
 
     <Button
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Storage"
+        android:text="@string/storage"
         android:textAllCaps="false" />
 
     <Button
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Decor"
+        android:text="@string/decor"
         android:textAllCaps="false" />
 
     <Button
@@ -110,6 +110,6 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Lighting"
+        android:text="@string/lightings"
         android:textAllCaps="false" />
 </LinearLayout>

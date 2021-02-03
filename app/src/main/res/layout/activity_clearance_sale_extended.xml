@@ -44,7 +44,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="CLEARANCE SALE"
+            android:text="@string/clearance_sale"
             android:layout_margin="15dp"
             android:textColor="#D2000000"
             android:textSize="16sp" />
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Sofas"
+        android:text="@string/sofas"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="seating"
+        android:text="@string/seating"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Chairs"
+        android:text="@string/chairs"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Tables"
+        android:text="@string/tables"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Dining And Bar"
+        android:text="@string/dining_and_bar"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -96,7 +96,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Cabinetry"
+        android:text="@string/cabinetry"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Beds"
+        android:text="@string/beds"
         android:textAllCaps="false" />
 
 

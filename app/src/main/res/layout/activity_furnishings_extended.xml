@@ -44,7 +44,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="FURNISHINGS"
+            android:text="@string/furnishings"
             android:layout_margin="15dp"
             android:textColor="#D2000000"
             android:textSize="16sp" />
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Bed Linen"
+        android:text="@string/bed_linen"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Flooring"
+        android:text="@string/flooring"
         android:textAllCaps="false" />
 
     <Button
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Curtains"
+        android:text="@string/curtains"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Bath Linen"
+        android:text="@string/bath_linen"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Cushion And Covers"
+        android:text="@string/cushion_and_covers"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Table Linen"
+        android:text="@string/table_linen"
         android:textAllCaps="false" />
 
 </LinearLayout>
