@@ -23,4 +23,12 @@
     <string name="kids_room2">KIDS ROOM</string>
     <string name="decor">Decor</string>
     <string name="lighting">Lighting</string>
+    <string name="no_notification">No Notification</string>
+    <string name="your_notification">Your Notification will show up here</string>
+    <string name="start_shopping">Start Shopping</string>
+    <string name="sign_in_notification">Sign in to view personalized notifications</string>
+    <string name="sign_in">Sign In</string>
+    <string name="Your_Wish_list">Your Wish List Is Empty !</string>
+    <string name="Explore_More">Explore More And Shortlist Some Items. </string>
+    <string name="acc_profile_signIn">profile_signIn</string>
 </resources>

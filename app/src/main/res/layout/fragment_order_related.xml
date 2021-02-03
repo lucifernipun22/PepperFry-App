@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderRelatedFragment">
+
+    <TextView
+        android:id="@+id/tvSign_inPersonal"
+        style="@style/Fira_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/sign_in_notification"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/ivnotificationIconHoldingHand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tvSign_inPersonal"
+        android:src="@drawable/ic_order_empty_notification" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/rectangle"
+        android:text="@string/sign_in"
+        android:textColor="@color/dark_orange"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
