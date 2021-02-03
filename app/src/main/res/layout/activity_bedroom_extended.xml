@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.DepartmentSection.BedroomExtended">
+    tools:context="com.example.BedroomExtended">
     <RelativeLayout
         android:layout_width="match_parent"
         android:padding="5dp"

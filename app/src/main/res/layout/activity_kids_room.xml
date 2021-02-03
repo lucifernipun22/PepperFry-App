@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KidsRoom">
+    tools:context="com.example.KidsRoom">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         style="@style/actionbar_cardView_style"

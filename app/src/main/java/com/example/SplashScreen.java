@@ -1,4 +1,4 @@
-package com.example.pepperfry;
+package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.example.pepperfry.R;
 
 public class SplashScreen extends AppCompatActivity {
     Animation topAnim;

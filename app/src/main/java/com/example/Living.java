@@ -1,8 +1,10 @@
-package com.example.pepperfry;
+package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.pepperfry.R;
 
 public class Living extends AppCompatActivity {
 

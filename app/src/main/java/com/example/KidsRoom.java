@@ -1,4 +1,4 @@
-package com.example.DepartmentSection;
+package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.pepperfry.R;
 
-public class FurnishingsExtended extends AppCompatActivity {
+public class KidsRoom extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_furnishings_extended);
+        setContentView(R.layout.activity_kids_room);
     }
 }

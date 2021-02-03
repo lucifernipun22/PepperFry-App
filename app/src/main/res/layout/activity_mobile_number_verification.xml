@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context=".MobileNumberVerificationActivity">
+    tools:context="com.example.MobileNumberVerificationActivity">
 
     <ImageView
         android:id="@+id/ivbackToRegistration"
