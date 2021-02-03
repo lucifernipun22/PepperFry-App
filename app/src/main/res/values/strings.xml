@@ -14,8 +14,21 @@
     <string name="modular_furniture">MODULAR FURNITURE</string>
     <string name="furnishings">Furnishings</string>
     <string name="tables">Tables</string>
-    <string name="storage">Storage</string>
     <string name="decor">Decor</string>
+    <string name="mattress_brands">Mattress Brands</string>
+    <string name="mattreess_firmness">Mattress Firmness</string>
+    <string name="mattress_types">Mattress Type</string>
+    <string name="festive_lights">Festive Lights</string>
+    <string name="outdoor_lights">Outdoor Lights</string>
+    <string name="smart_homes">Smart Homes</string>
+    <string name="lamps">Lamps</string>
+    <string name="modular_wardobes">Modular Wardobes</string>
+    <string name="modular_kitchen">Modular Kitchens</string>
+    <string name="ceiling_lights">Ceiling Lights</string>
+    <string name="wall_lights">Wall Lights</string>
+    <string name="bedding">Bedding</string>
+    <string name="study">Study</string>
+    <string name="storage">Storage</string>
     <string name="table_linen">Table Linen</string>
     <string name="cushion_and_covers">Cushion And Covers</string>
     <string name="bath_linen">Bath Linen</string>
@@ -39,6 +52,7 @@
     <string name="wall_accents">Wall Accents</string>
     <string name="dining_and_bar">Dining And Bar</string>
     <string name="clearance_sale">CLEARANCE SALE</string>
+    <string name="Clearance_Sale">Clearance Sale</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 </resources>

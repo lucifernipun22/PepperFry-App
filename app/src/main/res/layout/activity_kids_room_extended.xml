@@ -44,7 +44,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="KIDS ROOM"
+            android:text="@string/kids_room"
             android:layout_margin="15dp"
             android:textColor="#D2000000"
             android:textSize="16sp" />
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Beds"
+        android:text="@string/beds"
         android:textAllCaps="false" />
 
     <Button
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Study"
+        android:text="@string/study"
         android:textAllCaps="false" />
 
     <Button
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Storage"
+        android:text="@string/storage"
         android:textAllCaps="false" />
 
     <Button
@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Seating"
+        android:text="@string/seating"
         android:textAllCaps="false" />
 
     <Button
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Decor"
+        android:text="@string/decor"
         android:textAllCaps="false" />
 
     <Button
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Bedding"
+        android:text="@string/bedding"
         android:textAllCaps="false" />
 
     <Button
@@ -110,7 +110,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Furnishing"
+        android:text="@string/furnishings"
         android:textAllCaps="false" />
 
 </LinearLayout>

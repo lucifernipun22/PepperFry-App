@@ -44,7 +44,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="MATTRESSSES"
+            android:text="@string/mattressses"
             android:layout_margin="15dp"
             android:textColor="#D2000000"
             android:textSize="16sp" />
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Mattresses"
+        android:text="@string/mattressses"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Mattress Type"
+        android:text="@string/mattress_types"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Mattress Firmness"
+        android:text="@string/mattreess_firmness"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Mattress Brands"
+        android:text="@string/mattress_brands"
         android:textAllCaps="false" />
 
 

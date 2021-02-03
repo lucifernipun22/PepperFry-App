@@ -44,7 +44,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="MODULAR FURNITURE"
+            android:text="@string/modular_furniture"
             android:layout_margin="15dp"
             android:textColor="#D2000000"
             android:textSize="16sp" />
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Modular Kitchens"
+        android:text="@string/modular_kitchen"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Modular Wardobes"
+        android:text="@string/modular_wardobes"
         android:textAllCaps="false" />
 
 </LinearLayout>

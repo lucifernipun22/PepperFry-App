@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="@string/clearance_sale"
+        android:text="@string/Clearance_Sale"
         android:textAllCaps="false" />
     <Button
         style="@style/Departments"
