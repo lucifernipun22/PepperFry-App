@@ -21,8 +21,6 @@
     <string name="living2">LIVING</string>
     <string name="bedroom2">BEDROOM</string>
     <string name="kids_room2">KIDS ROOM</string>
-    <string name="decor">Decor</string>
-    <string name="lighting">Lighting</string>
     <string name="no_notification">No Notification</string>
     <string name="your_notification">Your Notification will show up here</string>
     <string name="start_shopping">Start Shopping</string>
@@ -31,4 +29,16 @@
     <string name="Your_Wish_list">Your Wish List Is Empty !</string>
     <string name="Explore_More">Explore More And Shortlist Some Items. </string>
     <string name="acc_profile_signIn">profile_signIn</string>
+    <string name="mobile_verification">MOBILE VERIFICATION</string>
+    <string name="waiting_opt">Waiting for OTP to Verify Your Mobile No</string>
+    <string name="validate_opt">The OTP is valid For 30 Mins</string>
+    <string name="did_not_receive_otp">Did not Receive Your OTP? </string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="you_have_won">You Have Won</string>
+    <string name="an_coupon">An Exclusive Coupon</string>
+    <string name="Enjoy_free">Enjoy Free Delivery</string>
+    <string name="first_order">On Your First Order</string>
+    <string name="pepperfry">PEPPERFRY</string>
+    <string name="hurry_up">Hurry Up! Offer Valid For 7 Days.</string>
+    <string name="coupon_details">Coupon details along with a verification link</string>
 </resources>
