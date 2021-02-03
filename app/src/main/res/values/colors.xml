@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="bottom_action_background">#FFFFFFFF</color>
+    <color name="dark_orange">#dc2f02</color>
 </resources>
