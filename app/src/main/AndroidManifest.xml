@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pepperfry">
-
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +16,14 @@
         <activity android:name="com.example.Living" />
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
+        <activity android:name="com.example.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity"/>
         <activity android:name="com.example.BedroomExtended" />
@@ -29,11 +37,7 @@
         <activity android:name="com.example.ModularFurnitureExtended" />
 
         <activity android:name="com.example.DepartmentsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
