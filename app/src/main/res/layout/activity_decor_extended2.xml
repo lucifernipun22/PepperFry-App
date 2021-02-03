@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.DepartmentSection.DecorExtended">
+    tools:context="com.example.DecorExtended">
     <RelativeLayout
         android:layout_width="match_parent"
         android:padding="5dp"
@@ -248,5 +248,4 @@
             app:layout_constraintHorizontal_bias="0.89"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </LinearLayout>
