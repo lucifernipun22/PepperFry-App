@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.StartShoppingActivity"></activity>
+        <activity android:name="com.example.LoginOrRegister">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+
+        </activity>
+        <activity android:name="com.example.DecorExtended" />
+        <activity android:name="com.example.StartShoppingActivity" />
         <activity android:name="com.example.MobileNumberVerificationActivity" />
         <activity android:name="com.example.KidsRoom" />
         <activity android:name="com.example.Bedroom" />
@@ -25,17 +36,17 @@
         </activity>
 
         <activity android:name="com.example.RegisterActivity" />
-        <activity android:name="com.example.MainActivity"/>
+        <activity android:name="com.example.MainActivity" />
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.FurnishingsExtended" />
         <activity android:name="com.example.FurnitureExtended" />
         <activity android:name="com.example.KidsRoomExtended" />
         <activity android:name="com.example.LightingExtended" />
+        <activity android:name="com.example.SplashScreen"></activity>
         <activity android:name="com.example.LivingExtended" />
         <activity android:name="com.example.MattressesExtended" />
         <activity android:name="com.example.ModularFurnitureExtended" />
-
         <activity android:name="com.example.DepartmentsActivity">
 
         </activity>
