@@ -18,12 +18,6 @@
         <activity android:name="com.example.HomeScreen" />
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity">
-        <activity
-            android:name="com.example.NavigationDrawer"
-            android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/Theme.PepperFry.NoActionBar">
-
-        </activity>
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.DepartmentSection.DecorExtended" />
