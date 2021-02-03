@@ -8,7 +8,7 @@
     tools:context="com.example.DepartmentSection.ModularFurnitureExtended">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:padding="5dp"
+        android:padding="@dimen/dp_5"
         android:background="@color/white"
         android:layout_height="wrap_content">
 
@@ -16,38 +16,38 @@
             android:id="@+id/imBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="@dimen/dp_15"
             android:background="@drawable/ic_left_arrow"
-            android:padding="10dp" />
+            android:padding="@dimen/dp_10" />
         <ImageView
             android:id="@+id/ivShoppingCart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="15dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_15"
             android:layout_alignParentEnd="true"
             android:background="@drawable/ic_shopping_cart"
-            android:padding="10dp" />
+            android:padding="@dimen/dp_10" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_toLeftOf="@id/ivShoppingCart"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_15"
             android:background="@drawable/ic_magnifiying_glass"
-            android:padding="10dp" />
+            android:padding="@dimen/dp_10" />
 
         <TextView
             android:id="@+id/tvFurniture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_12"
             android:layout_toEndOf="@+id/imBack"
             android:text="@string/modular_furniture"
-            android:layout_margin="15dp"
+            android:layout_margin="@dimen/dp_15"
             android:textColor="#D2000000"
-            android:textSize="16sp" />
+            android:textSize="@dimen/sp_16" />
 
     </RelativeLayout>
 

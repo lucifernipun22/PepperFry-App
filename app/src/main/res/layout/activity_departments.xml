@@ -12,7 +12,7 @@
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/dp_30"
         android:drawableEnd="@drawable/ic_right_arrow__1_"
         android:text="@string/Furniture" />
 
