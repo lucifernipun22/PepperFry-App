@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name=".KidsRoom"></activity>
+        <activity android:name=".MobileNumberVerificationActivity"></activity>
+        <activity android:name=".KidsRoom" />
         <activity android:name=".Bedroom" />
         <activity android:name=".Living" />
         <activity android:name=".Furniture" />
