@@ -34,4 +34,11 @@
     <string name="validate_opt">The OTP is valid For 30 Mins</string>
     <string name="did_not_receive_otp">Did not Receive Your OTP? </string>
     <string name="resend_otp">Resend OTP</string>
+    <string name="you_have_won">You Have Won</string>
+    <string name="an_coupon">An Exclusive Coupon</string>
+    <string name="Enjoy_free">Enjoy Free Delivery</string>
+    <string name="first_order">On Your First Order</string>
+    <string name="pepperfry">PEPPERFRY</string>
+    <string name="hurry_up">Hurry Up! Offer Valid For 7 Days.</string>
+    <string name="coupon_details">Coupon details along with a verification link</string>
 </resources>
