@@ -17,10 +17,9 @@
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
         <activity android:name="com.example.RegisterActivity" />
-        <activity android:name="com.example.MainActivity">
+        <activity android:name="com.example.MainActivity"/>
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
-        <activity android:name="com.example.DepartmentSection.DecorExtended" />
         <activity android:name="com.example.FurnishingsExtended" />
         <activity android:name="com.example.FurnitureExtended" />
         <activity android:name="com.example.KidsRoomExtended" />
