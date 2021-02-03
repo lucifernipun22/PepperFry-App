@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ShopByDepartment"
+            android:title="SHOP BY DEPARTMENT" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_GiftCards"
+            android:title="Gift Cards" />
+        <item
+            android:id="@+id/nav_Corporate_Enquiries"
+            android:title="Corporate Enquiries" />
+        <item
+            android:id="@+id/nav_FindAStudio"
+            android:title="Find A Studio" />
+        <item
+            android:id="@+id/BuyAPhone"
+            android:title="Buy A Phone" />
+        <item
+            android:id="@+id/PartnerWithUs"
+            android:title="Partner With Us" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_TrackOrder"
+            android:title="Track Order" />
+        <item
+            android:id="@+id/nav_NeedHelp"
+            android:title="Need Help" />
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:title="about Us" />
+
+    </group>
+</menu>

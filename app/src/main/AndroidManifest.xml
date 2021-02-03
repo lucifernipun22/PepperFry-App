@@ -18,6 +18,24 @@
         <activity android:name=".HomeScreen" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity">
+        <activity
+            android:name="com.example.NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.PepperFry.NoActionBar">
+
+        </activity>
+        <activity android:name="com.example.DepartmentSection.BedroomExtended" />
+        <activity android:name="com.example.DepartmentSection.ClearanceSaleExtended" />
+        <activity android:name="com.example.DepartmentSection.DecorExtended" />
+        <activity android:name="com.example.DepartmentSection.FurnishingsExtended" />
+        <activity android:name="com.example.DepartmentSection.FurnitureExtended" />
+        <activity android:name="com.example.DepartmentSection.KidsRoomExtended" />
+        <activity android:name="com.example.DepartmentSection.LightingExtended" />
+        <activity android:name="com.example.DepartmentSection.LivingExtended" />
+        <activity android:name="com.example.DepartmentSection.MattressesExtended" />
+        <activity android:name="com.example.DepartmentSection.ModularFurnitureExtended" />
+
+        <activity android:name="com.example.DepartmentSection.DepartmentsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

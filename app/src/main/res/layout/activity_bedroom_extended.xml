@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.DepartmentSection.BedroomExtended">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/ic_left_arrow"
+            android:padding="10dp" />
+        <ImageView
+            android:id="@+id/ivShoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_shopping_cart"
+            android:padding="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@id/ivShoppingCart"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_magnifiying_glass"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvFurniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/imBack"
+            android:text="BEDROOM"
+            android:gravity="start"
+            android:layout_margin="15dp"
+            android:textColor="#D2000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="BEDS"
+        android:gravity="start"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Mattresses"
+        android:gravity="start"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Furnishings"
+        android:gravity="start"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Tables"
+        android:gravity="start"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Storage"
+        android:gravity="start"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/decor"
+        android:gravity="start"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/Departments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_plus"
+        android:fontFamily="@font/fira_sans"
+        android:text="Lighting"
+        android:gravity="start"
+        android:textAllCaps="false" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="270dp">
+
+        <View
+            android:id="@+id/bottomActionbarDiscover"
+            style="@style/btoom_action_bar_style"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home_black"
+            app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
+            app:layout_constraintEnd_toStartOf="@+id/ivDepartment"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
+
+        <TextView
+            android:id="@+id/tvHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:layout_marginBottom="3dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_orange"
+            app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
+            app:layout_constraintEnd_toStartOf="@+id/ivAlert"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivHome"
+            app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
+
+        <TextView
+            android:id="@+id/tvDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/department"
+            android:textColor="#f05d21"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
+            app:layout_constraintHorizontal_bias="0.302"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_notification"
+            app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
+            app:layout_constraintEnd_toStartOf="@+id/ivHeart"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivDepartment"
+            app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
+
+        <TextView
+            android:id="@+id/tvAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/alert"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivHeart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_heart"
+            app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
+            app:layout_constraintEnd_toStartOf="@+id/ivSettings"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivAlert"
+            app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
+
+        <TextView
+            android:id="@+id/tvWishList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/wishlist"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user"
+            app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivHeart"
+            app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
+
+        <TextView
+            android:id="@+id/tvProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/profile"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
+            app:layout_constraintHorizontal_bias="0.89"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
