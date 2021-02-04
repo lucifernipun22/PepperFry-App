@@ -119,6 +119,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btnMyOrder"
             style="@style/Profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -130,6 +131,7 @@
 
         <Button
             style="@style/Profile"
+            android:id="@+id/btnTrackOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_arrival"

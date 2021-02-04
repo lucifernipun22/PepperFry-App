@@ -3,20 +3,15 @@ package com.example;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.example.pepperfry.R;
 
 public class ProfileSection extends AppCompatActivity {
-    private Intent intent;
-    private ImageView ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
-    private TextView NameEdit, NumberEdit, EmailEdit, EditButton;
-    private Button SignOut;
+private Button mBTNMyOrder;
+private Button mBTNTrackOrder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +82,9 @@ public class ProfileSection extends AppCompatActivity {
 
 
         ivProfiles.setOnClickListener(new View.OnClickListener() {
+        mBTNMyOrder=  findViewById(R.id.btnMyOrder);
+        mBTNTrackOrder=  findViewById(R.id.btnTrackOrder);
+        mBTNMyOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(ProfileSection.this, ProfileSection.class);
