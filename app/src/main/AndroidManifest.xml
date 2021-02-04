@@ -11,18 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.SectionalSofas">
+        <activity android:name="com.example.ProfileExtendedMyOrder">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
 
         </activity>
+        <activity android:name="com.example.SectionalSofas"></activity>
         <activity android:name="com.example.ProfileSection" />
         <activity android:name="com.example.LoginOrRegister">
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
 
         </activity>
         <activity android:name="com.example.DecorExtended" />
@@ -31,7 +32,7 @@
         <activity android:name="com.example.KidsRoom" />
         <activity android:name="com.example.Bedroom" />
         <activity android:name="com.example.Living" />
-        <activity android:name="com.example.SofasActivity"/>
+        <activity android:name="com.example.SofasActivity" />
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
         <activity android:name="com.example.SplashScreen">
@@ -43,9 +44,7 @@
         </activity>
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
-        <activity android:name="com.example.AlertsActivity">
-
-        </activity>
+        <activity android:name="com.example.AlertsActivity"></activity>
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.FurnishingsExtended" />
