@@ -5,6 +5,9 @@
         android:angle="225"
         android:startColor="#f05d21"
         android:endColor="#ee2825" />
+    <solid
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
 
 
 </shape>
