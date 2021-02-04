@@ -62,6 +62,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/NameEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -71,10 +72,10 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/EditButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-
             android:gravity="right"
             android:text="EDIT"
             android:textColor="#E74512"
@@ -89,6 +90,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/NumberEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -97,6 +99,7 @@
             android:textSize="14sp" />
 
         <TextView
+            android:id="@+id/EmailEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_baseline_stop_24"
@@ -118,83 +121,84 @@
         <Button
             android:id="@+id/btnMyOrder"
             style="@style/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_box"
-            android:drawablePadding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:text="My Orders" />
+            android:drawablePadding="10dp"
+            android:text="My Orders"
+            android:textAllCaps="false" />
 
         <Button
             style="@style/Profile"
-            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_arrival"
-            android:drawablePadding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:text="Track Orders" />
+            android:drawablePadding="10dp"
+            android:text="Track Orders"
+            android:textAllCaps="false" />
 
         <Button
             style="@style/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_baseline_favorite_border_24"
-            android:layout_width="match_parent"
-            android:drawablePadding="10dp"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:text="Whishlit" />
+            android:drawablePadding="10dp"
+            android:text="Whishlit"
+            android:textAllCaps="false" />
 
         <Button
             style="@style/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_wallet"
-            android:drawablePadding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:text="My Wallet" />
+            android:drawablePadding="10dp"
+            android:text="My Wallet"
+            android:textAllCaps="false" />
 
         <Button
             style="@style/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_phone_book"
-            android:drawablePadding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:textAllCaps="false"
-            android:text="Address Book" />
+            android:drawablePadding="10dp"
+            android:text="Address Book"
+            android:textAllCaps="false" />
 
         <Button
             style="@style/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_lock"
-            android:drawablePadding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:text="Change password" />
+            android:drawablePadding="10dp"
+            android:text="Change password"
+            android:textAllCaps="false" />
 
         <Button
             style="@style/Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_verified"
-            android:drawablePadding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:textAllCaps="false"
-            android:text="Two - Step Verification" />
+            android:drawablePadding="10dp"
+            android:text="Two - Step Verification"
+            android:textAllCaps="false" />
 
         <Button
+            android:id="@+id/SignOut"
             style="@style/Profile"
-            android:drawableStart="@drawable/ic_sign_out"
-            android:drawablePadding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_sign_out"
             android:drawableEnd="@drawable/ic_right_arrow__1_"
-            android:textAllCaps="false"
-            android:text="Sign Out" />
+            android:drawablePadding="10dp"
+            android:text="Sign Out"
+            android:textAllCaps="false" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
@@ -211,12 +215,12 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/ivHomeAlerts"
+                android:id="@+id/ivHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_home_black"
                 app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-                app:layout_constraintEnd_toStartOf="@+id/ivDepartmentAlerts"
+                app:layout_constraintEnd_toStartOf="@+id/ivDepartment"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
@@ -225,10 +229,10 @@
                 android:id="@+id/tvHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
                 android:text="@string/home"
                 android:textColor="#000000"
                 android:textSize="10sp"
-                android:layout_marginBottom="3dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
@@ -236,14 +240,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/ivDepartmentAlerts"
+                android:id="@+id/ivDepartment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_menu"
                 app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-                app:layout_constraintEnd_toStartOf="@+id/ivAlertSofas"
+                app:layout_constraintEnd_toStartOf="@+id/ivAlert"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/ivHomeAlerts"
+                app:layout_constraintStart_toEndOf="@+id/ivHome"
                 app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
             <TextView
@@ -252,7 +256,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
                 android:text="@string/department"
-                android:textColor="#0D0D0C"
+                android:textColor="@color/black"
                 android:textSize="10sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
@@ -260,14 +264,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/ivAlertSofas"
+                android:id="@+id/ivAlert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_notification"
                 app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-                app:layout_constraintEnd_toStartOf="@+id/ivHeartAlerts"
+                app:layout_constraintEnd_toStartOf="@+id/ivHeart"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/ivDepartmentAlerts"
+                app:layout_constraintStart_toEndOf="@+id/ivDepartment"
                 app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
             <TextView
@@ -283,14 +287,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/ivHeartAlerts"
+                android:id="@+id/ivHeart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_heart"
                 app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-                app:layout_constraintEnd_toStartOf="@+id/ivSettingsSofas"
+                app:layout_constraintEnd_toStartOf="@+id/ivSettings"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/ivAlertSofas"
+                app:layout_constraintStart_toEndOf="@+id/ivAlert"
                 app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
             <TextView
@@ -307,14 +311,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/ivSettingsSofas"
+                android:id="@+id/ivSettings"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/user_orange"
+                android:src="@drawable/ic_user_orange"
                 app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/ivHeartAlerts"
+                app:layout_constraintStart_toEndOf="@+id/ivHeart"
                 app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
             <TextView

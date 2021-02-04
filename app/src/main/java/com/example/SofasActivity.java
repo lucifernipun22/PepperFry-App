@@ -31,11 +31,11 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
 
     private void initViews() {
         mIVLeftArrow = findViewById(R.id.ivLeftArrowSofas);
-        mIvSettings = findViewById(R.id.ivSettingsSofas);
-        mIvHeart = findViewById(R.id.ivHeartAlerts);
-        mIvAlert = findViewById(R.id.ivAlertSofas);
-        mIvDepartment = findViewById(R.id.ivDepartmentAlerts);
-        mIvHome = findViewById(R.id.ivHomeAlerts);
+        mIvSettings = findViewById(R.id.ivSettings);
+        mIvHeart = findViewById(R.id.ivHeart);
+        mIvAlert = findViewById(R.id.ivAlert);
+        mIvDepartment = findViewById(R.id.ivDepartment);
+        mIvHome = findViewById(R.id.ivHome);
         SofasRecyclerView = findViewById(R.id.RvAllSofas);
         mIVLeftArrow.setOnClickListener(new View.OnClickListener() {
             @Override
