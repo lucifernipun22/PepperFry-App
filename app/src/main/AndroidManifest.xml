@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.ProfileSection"></activity>
+        <activity android:name="com.example.SectionalSofas">
+
+        </activity>
+        <activity android:name="com.example.ProfileSection" />
         <activity android:name="com.example.LoginOrRegister">
 
             <!-- <intent-filter> -->
@@ -39,6 +42,9 @@
         </activity>
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
+        <activity android:name="com.example.AlertsActivity">
+
+        </activity>
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.FurnishingsExtended" />
@@ -48,7 +54,7 @@
         <activity android:name="com.example.LivingExtended" />
         <activity android:name="com.example.MattressesExtended" />
         <activity android:name="com.example.ModularFurnitureExtended" />
-        <activity android:name="com.example.DepartmentsActivity"></activity>
+        <activity android:name="com.example.DepartmentsActivity" />
     </application>
 
 </manifest>

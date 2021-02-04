@@ -57,7 +57,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,DepartmentsActivity.class);
                 startActivity(intent);
-//                finish();
+               finish();
             }
         });
         ivOffer.setOnClickListener(new View.OnClickListener() {
