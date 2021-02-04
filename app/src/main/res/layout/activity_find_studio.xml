@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindStudioActivity">
+
+    <ImageView
+        android:id="@+id/ivBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:src="@drawable/ic_left_chevron"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvStudioPepperfry"
+        style="@style/Fira_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:text="Studio_pepperfry"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toRightOf="@id/ivBackToHome"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivShopCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_shopping_cart"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/ivSearchBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:src="@drawable/ic_search"
+        app:layout_constraintRight_toLeftOf="@id/ivShopCart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnBookFreeConsultation"
+        style="@style/Fira_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_rectangle"
+        android:text="book_consultation"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivStudio"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/studio_img"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivSearchBar" />
+
+    <TextView
+        android:id="@+id/TvWalkStudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Walk_in_studio"
+        android:textColor="@color/black"
+        style="@style/Fira_font"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/ivStudio"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/TvStudioTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="studio_time"
+        android:textColor="@color/black"
+        style="@style/Fira_font"
+        android:textSize="12sp"
+        android:layout_margin="2dp"
+        app:layout_constraintTop_toBottomOf="@id/TvWalkStudio"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

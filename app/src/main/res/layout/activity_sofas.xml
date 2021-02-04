@@ -4,49 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.AlertsActivity">
+    tools:context=".SofasActivity">
 
-    <LinearLayout
-        android:id="@+id/LLTopbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        style="@style/actionbar_cardView_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/ivback"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:src="@drawable/ic_left_chevron" />
-
         <TextView
-            android:id="@+id/TvNotification"
-            style="@style/Fira_font"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:padding="7dp"
-            android:text="NOTIFICATIONS"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:id="@+id/tvSofas"
+            style="@style/discover_title_textStyle3"
+            android:text="@string/sofas"
+            android:textColor="@color/black" />
 
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/ivLeftArrowSofas"
+            style="@style/discover_title_textStyle2"
+            android:layout_width="28dp"
+            android:layout_height="23dp"
+            android:background="@drawable/ic_left_chevron"
+            android:textColor="@color/black" />
 
+        <ImageView
+            style="@style/overflow_icon_style"
+            android:src="@drawable/ic_shopping_cart" />
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/TabLayout"
+        <androidx.appcompat.widget.SearchView
+            style="@style/overflow_icon_style2"
+            android:src="@drawable/ic_search" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RvAllSofas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabIndicatorColor="@color/dark_orange"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/LLTopbar"
-        />
+        app:layout_constraintTop_toBottomOf="@id/cardView" />
+
     <View
         android:id="@+id/bottomActionbarDiscover"
         style="@style/btoom_action_bar_style"
@@ -174,12 +171,5 @@
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/ViewPager"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/TabLayout"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+

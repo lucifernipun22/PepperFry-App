@@ -45,12 +45,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/ivHome"
+        android:id="@+id/ivHomeAlerts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_home"
         app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-        app:layout_constraintEnd_toStartOf="@+id/ivDepartment"
+        app:layout_constraintEnd_toStartOf="@+id/ivDepartmentAlerts"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
@@ -70,14 +70,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/ivDepartment"
+        android:id="@+id/ivDepartmentAlerts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_menu"
         app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-        app:layout_constraintEnd_toStartOf="@+id/ivAlert"
+        app:layout_constraintEnd_toStartOf="@+id/ivAlertSofas"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ivHome"
+        app:layout_constraintStart_toEndOf="@+id/ivHomeAlerts"
         app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
     <TextView
@@ -94,14 +94,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/ivAlert"
+        android:id="@+id/ivAlertSofas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_notification"
         app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-        app:layout_constraintEnd_toStartOf="@+id/ivHeart"
+        app:layout_constraintEnd_toStartOf="@+id/ivHeartAlerts"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ivDepartment"
+        app:layout_constraintStart_toEndOf="@+id/ivDepartmentAlerts"
         app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
     <TextView
@@ -117,14 +117,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/ivHeart"
+        android:id="@+id/ivHeartAlerts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_heart"
         app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
-        app:layout_constraintEnd_toStartOf="@+id/ivSettings"
+        app:layout_constraintEnd_toStartOf="@+id/ivSettingsSofas"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ivAlert"
+        app:layout_constraintStart_toEndOf="@+id/ivAlertSofas"
         app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
     <TextView
@@ -141,14 +141,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/ivSettings"
+        android:id="@+id/ivSettingsSofas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_user"
         app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ivHeart"
+        app:layout_constraintStart_toEndOf="@+id/ivHeartAlerts"
         app:layout_constraintTop_toTopOf="@id/bottomActionbarDiscover" />
 
     <TextView

@@ -9,7 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.example.pepperfry.R;
+/*import com.example.pepperfry.R;*/
 
 import java.util.Timer;
 import java.util.TimerTask;

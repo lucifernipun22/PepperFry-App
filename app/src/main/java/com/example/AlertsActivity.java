@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.example.pepperfry.R;
 import com.google.android.material.tabs.TabLayout;
 
 public class AlertsActivity extends AppCompatActivity {
@@ -36,5 +36,12 @@ public class AlertsActivity extends AppCompatActivity {
         mTvNotification = findViewById(R.id.TvNotification);
         mTabLayout = findViewById(R.id.TabLayout);
         mViewPager = findViewById(R.id.ViewPager);
+        mIvBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AlertsActivity.this,HomeScreen.class);
+                startActivity(intent);
+            }
+        });
     }
 }

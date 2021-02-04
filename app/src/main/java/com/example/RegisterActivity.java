@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import com.example.pepperfry.R;
+/*import com.example.pepperfry.R;*/
 
 public class RegisterActivity extends AppCompatActivity {
     private ImageView btnCross;

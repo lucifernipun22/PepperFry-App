@@ -3,12 +3,11 @@ package com.example;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.pepperfry.R;
+/*import com.example.pepperfry.R;*/
 
 public class HomeScreen extends AppCompatActivity {
     private ImageView ivFurniture;
@@ -37,11 +36,11 @@ public class HomeScreen extends AppCompatActivity {
         ivLighting = findViewById(R.id.ivLighting);
         ivModular = findViewById(R.id.ivModularFurniture);
         ivClearance = findViewById(R.id.ivCleanserSale);
-        ivHome = findViewById(R.id.ivHome);
-        ivDepartments = findViewById(R.id.ivDepartment);
-        ivAlerts = findViewById(R.id.ivAlert);
-        ivWishList = findViewById(R.id.ivHeart);
-        ivProfiles = findViewById(R.id.ivSettings);
+        ivHome = findViewById(R.id.ivHomeAlerts);
+        ivDepartments = findViewById(R.id.ivDepartmentAlerts);
+        ivAlerts = findViewById(R.id.ivAlertSofas);
+        ivWishList = findViewById(R.id.ivHeartAlerts);
+        ivProfiles = findViewById(R.id.ivSettingsSofas);
         ivOffer = findViewById(R.id.offer);
 
         ivAlerts.setOnClickListener(new View.OnClickListener() {

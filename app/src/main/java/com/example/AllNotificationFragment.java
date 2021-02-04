@@ -1,6 +1,7 @@
 package com.example;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -14,7 +15,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.pepperfry.R;
+/*import com.example.pepperfry;*/
 
 
 public class AllNotificationFragment extends Fragment {
@@ -52,7 +53,8 @@ public class AllNotificationFragment extends Fragment {
         mBtnStartShop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Launch Home Page
+                Intent intent = new Intent(getContext(), HomeScreen.class);
+                startActivity(intent);
             }
         });
     }

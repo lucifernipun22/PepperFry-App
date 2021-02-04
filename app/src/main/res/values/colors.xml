@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bottom_action_background">#FFFFFFFF</color>
     <color name="dark_orange">#dc2f02</color>
+    <color name="light_orange">#e85d04</color>
 </resources>

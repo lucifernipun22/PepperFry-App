@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.pepperfry.R;
+/*import com.example.pepperfry.R;*/
 
 public class DepartmentsActivity extends AppCompatActivity implements View.OnClickListener {
 

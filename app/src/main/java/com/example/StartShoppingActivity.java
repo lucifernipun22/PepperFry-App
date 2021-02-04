@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.pepperfry.R;
-
 public class StartShoppingActivity extends AppCompatActivity {
 private Button mBtnStartShopping;
     @Override
