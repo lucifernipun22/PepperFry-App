@@ -25,6 +25,7 @@
 
         </activity>
         <activity android:name="com.example.DecorExtended" />
+        <activity android:name="com.example.ProfileExtendedMyOrder" />
         <activity android:name="com.example.StartShoppingActivity" />
         <activity android:name="com.example.MobileNumberVerificationActivity" />
         <activity android:name="com.example.KidsRoom" />
