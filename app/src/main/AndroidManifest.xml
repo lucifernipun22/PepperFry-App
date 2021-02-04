@@ -11,9 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.NavigationActivity">
-
-        </activity>
+        <activity android:name="com.example.ChairActivity"></activity>
+        <activity android:name="com.example.NavigationActivity"></activity>
         <activity android:name="com.example.shoe_rack" />
         <activity android:name="com.example.SignOutConfirm" />
         <activity android:name="com.example.SectionalSofas" />

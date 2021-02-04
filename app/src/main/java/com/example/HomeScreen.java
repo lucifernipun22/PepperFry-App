@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Notification;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -45,6 +46,7 @@ public class HomeScreen extends AppCompatActivity {
         ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
         ivOffer = findViewById(R.id.offer);
+        
         menuNavigation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,7 +77,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,AlertsActivity.class);
                 startActivity(intent);
-//                finish();
+               finish();
             }
         });
         ivDepartments.setOnClickListener(new View.OnClickListener() {
@@ -83,7 +85,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,DepartmentsActivity.class);
                 startActivity(intent);
-//               finish();
+              finish();
             }
         });
 
@@ -94,7 +96,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(HomeScreen.this, ProfileSection.class);
                 startActivity(intent);
-//                finish();
+               finish();
             }
         });
         ivFurniture.setOnClickListener(new View.OnClickListener() {
@@ -110,7 +112,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(HomeScreen.this, Living.class);
                 startActivity(intent);
-//                finish();
+               finish();
             }
         });
         ivOffer.setOnClickListener(new View.OnClickListener() {
@@ -118,8 +120,9 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent=new Intent(HomeScreen.this,Furniture.class);
                 startActivity(intent);
-//                finish();
+               finish();
             }
         });
     }
+
 }

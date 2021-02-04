@@ -49,7 +49,6 @@ public class RegisterActivity extends AppCompatActivity {
         btnRegister = findViewById(R.id.button);
         btnFacebook = findViewById(R.id.fb);
         btnGoogle = findViewById(R.id.google);
-        
         setListeners();
         setTextChangeListener();
         setTextChangeListener1();

@@ -14,16 +14,16 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.broooapps.otpedittext2.OnCompleteListener;
+import com.broooapps.otpedittext2.OtpEditText;
 import com.example.pepperfry.R;
 
 public class MobileNumberVerificationActivity extends AppCompatActivity {
     private ImageView mIvBackToRegistration, mIvShopCart, mIvSearchBar;
     private TextView mTvMobileVerification, mTvWaiting_otp,
             mTvMobileNumber, mTvOtpValidate, mTvOtpNotReceive, mTvOtpResend;
-    private EditText mEtvFirst, mEtvSecond, mEtvThird, mEtvFourth, mEtvFifth, mEtvSixth;
-    private GridLayout mGirdRow;
     private Button btnConfirm;
-
+    private OtpEditText otpEditText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,13 +42,7 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
         mTvOtpValidate = findViewById(R.id.tvOtpValidate);
         mTvOtpNotReceive = findViewById(R.id.tvOtpnotReceive);
         mTvOtpResend = findViewById(R.id.tvOtpResend);
-        mGirdRow = findViewById(R.id.gridRow);
-        mEtvFirst = findViewById(R.id.EtvFirstDigit);
-        mEtvSecond = findViewById(R.id.EtvSecondDigit);
-        mEtvThird = findViewById(R.id.EtvThirdDigit);
-        mEtvFourth = findViewById(R.id.EtvFourthDigit);
-        mEtvFifth = findViewById(R.id.EtvFifthDigit);
-        mEtvSixth = findViewById(R.id.EtvSixthDigit);
+        otpEditText = findViewById(R.id.etOtp);
         btnConfirm =findViewById(R.id.buttonConfirm);
         mIvBackToRegistration.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,12 +53,7 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
             }
         });
     setListeners();
-        setTextChangeListener();
-        setTextChangeListener1();
-        setTextChangeListener2();
-        setTextChangeListener3();
-        setTextChangeListener4();
-        setTextChangeListener5();
+
     }
 
     private void setPhoneNumber() {
@@ -76,7 +65,12 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
     boolean isButtonEnabled2 = false;
 
     private void setListeners() {
-
+        otpEditText.setOnCompleteListener(new OnCompleteListener() {
+            @Override
+            public void onComplete(String value) {
+                activityTriversalWithAnimation(StartShoppingActivity.class);
+            }
+        });
         btnConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,150 +85,6 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
         Intent intent = new Intent(MobileNumberVerificationActivity.this, classname);
         startActivity(intent);
     }
-    //this function monitors the edittext for changes
-    private void setTextChangeListener() {
-        mEtvFirst.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s.toString().trim().length() < 1 || s.toString().trim().length() > 1) {
-                    isButtonEnabled2 = false;
-
-                } else {
-                    isButtonEnabled2 = true;
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-    }
-    private void setTextChangeListener1() {
-        mEtvSecond.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s.toString().trim().length() < 1 || s.toString().trim().length() > 1) {
-                    isButtonEnabled2 = false;
-
-                } else {
-                    isButtonEnabled2 = true;
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-    }
-    private void setTextChangeListener2() {
-        mEtvThird.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s.toString().trim().length() < 1 || s.toString().trim().length() > 1) {
-                    isButtonEnabled2 = false;
-
-                } else {
-                    isButtonEnabled2 = true;
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-    }
-    private void setTextChangeListener3() {
-        mEtvFourth.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s.toString().trim().length() < 1 || s.toString().trim().length() > 1) {
-                    isButtonEnabled2 = false;
-
-                } else {
-                    isButtonEnabled2 = true;
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-    }
-    private void setTextChangeListener4() {
-        mEtvFifth.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s.toString().trim().length() < 1 || s.toString().trim().length() > 1) {
-                    isButtonEnabled2 = false;
-
-                } else {
-                    isButtonEnabled2 = true;
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-    }
-    private void setTextChangeListener5() {
-        mEtvSixth.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s.toString().trim().length() < 1 || s.toString().trim().length() > 1) {
-                    isButtonEnabled2 = false;
-
-                } else {
-                    isButtonEnabled2 = true;
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-    }
 
 }
