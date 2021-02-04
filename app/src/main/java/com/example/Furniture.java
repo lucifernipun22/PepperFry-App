@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/*import com.example.pepperfry.R;*/
+import com.example.pepperfry.R;
 
 public class Furniture extends AppCompatActivity implements View.OnClickListener {
     private TextView sofas;
@@ -56,6 +56,14 @@ public class Furniture extends AppCompatActivity implements View.OnClickListener
         ModernWriting = findViewById(R.id.iventertainmentunit);
         DoorWardRobes = findViewById(R.id.ivhangingLights);
         DiningSetSix = findViewById(R.id.ivWallArt);
+        sectionalSofas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,SectionalSofas.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         sofas.setOnClickListener(this);
     }
 

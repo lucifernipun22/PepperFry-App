@@ -35,7 +35,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
         android:layout_centerInParent="true"
         android:layout_below="@id/tvyourNotification"
         android:src="@drawable/ic_no_notifications" />
@@ -48,9 +47,8 @@
         android:background="@drawable/rectangle"
         android:text="@string/start_shopping"
         android:textColor="@color/dark_orange"
+        android:layout_below="@id/ivnotificationIcon"
         android:textSize="15sp"
-        android:textStyle="normal"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/ivnotificationIcon"/>
+        android:textStyle="normal" />
 
 </RelativeLayout>
