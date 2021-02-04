@@ -36,12 +36,28 @@ public class HomeScreen extends AppCompatActivity {
         ivLighting = findViewById(R.id.ivLighting);
         ivModular = findViewById(R.id.ivModularFurniture);
         ivClearance = findViewById(R.id.ivCleanserSale);
-        ivHome = findViewById(R.id.ivHomeAlerts);
-        ivDepartments = findViewById(R.id.ivDepartmentAlerts);
-        ivAlerts = findViewById(R.id.ivAlertSofas);
-        ivWishList = findViewById(R.id.ivHeartAlerts);
-        ivProfiles = findViewById(R.id.ivSettingsSofas);
+        ivHome = findViewById(R.id.ivHome);
+        ivDepartments = findViewById(R.id.ivDepartment);
+        ivAlerts = findViewById(R.id.ivAlert);
+        ivWishList = findViewById(R.id.ivHeart);
+        ivProfiles = findViewById(R.id.ivSettings);
         ivOffer = findViewById(R.id.offer);
+        ivWishList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(HomeScreen.this,WishListFragment.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(HomeScreen.this,HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         ivAlerts.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,10 +75,13 @@ public class HomeScreen extends AppCompatActivity {
                finish();
             }
         });
-        ivOffer.setOnClickListener(new View.OnClickListener() {
+
+
+
+        ivProfiles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent=new Intent(HomeScreen.this,Furniture.class);
+                intent = new Intent(HomeScreen.this, ProfileSection.class);
                 startActivity(intent);
                 finish();
             }
@@ -83,11 +102,10 @@ public class HomeScreen extends AppCompatActivity {
                 finish();
             }
         });
-
-        ivProfiles.setOnClickListener(new View.OnClickListener() {
+        ivOffer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(HomeScreen.this, ProfileSection.class);
+                intent=new Intent(HomeScreen.this,Furniture.class);
                 startActivity(intent);
                 finish();
             }
