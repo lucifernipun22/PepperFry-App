@@ -26,7 +26,7 @@ public class ProfileSection extends AppCompatActivity {
         setName();
         setNumber();
         setEmail();
-        deleteData();
+
     }
 
     public void initViews() {
@@ -45,7 +45,10 @@ public class ProfileSection extends AppCompatActivity {
         SignOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                deleteData();
+                intent = new Intent(ProfileSection.this, SignOutConfirm.class);
+                startActivity(intent);
+                finish();
+
             }
         });
         ivWishList.setOnClickListener(new View.OnClickListener() {
@@ -123,11 +126,5 @@ public class ProfileSection extends AppCompatActivity {
         EmailEdit.setText(email);
     }
 
-    private void deleteData() {
-        sharedPrefNames name = new sharedPrefNames();
-        getApplicationContext().getSharedPreferences(name.SHARED_PREF_NAME, MODE_PRIVATE).edit().clear().apply();
-        intent = new Intent(ProfileSection.this, RegisterActivity.class);
-        startActivity(intent);
-        finish();
-    }
+
 }

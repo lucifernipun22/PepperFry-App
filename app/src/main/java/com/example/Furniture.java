@@ -64,6 +64,14 @@ public class Furniture extends AppCompatActivity {
         ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
         back=findViewById(R.id.tvLeftArrow);
+        ShoesRack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,shoe_rack.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
