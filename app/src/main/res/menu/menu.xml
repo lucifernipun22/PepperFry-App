@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ico"
+            android:title="Home" />
+        <item
+            android:icon="@drawable/icon"
+            android:title="Home" />
+        <item
+            android:icon="@drawable/profil"
+            android:title="Home" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:icon="@drawable/fortnite"
+                android:title="WEB" />
+            <item
+                android:icon="@drawable/iconk"
+                android:title="EXIT" />
+        </menu>
+    </item>
+
+
+</menu>

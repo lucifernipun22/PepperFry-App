@@ -10,24 +10,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PepperFry" >
-        <activity
-            android:name="com.example.NavigationActivity"
-            android:label="@string/title_activity_navigation"
-            android:theme="@style/Theme.PepperFry.NoActionBar" >
+        android:theme="@style/Theme.PepperFry">
+        <activity android:name="com.example.NavigationActivity">
+
         </activity>
         <activity android:name="com.example.shoe_rack" />
         <activity android:name="com.example.SignOutConfirm" />
         <activity android:name="com.example.SectionalSofas" />
         <activity android:name="com.example.ProfileSection" />
-        <activity android:name="com.example.LoginOrRegister" >
+        <activity android:name="com.example.LoginOrRegister">
 
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
 
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
 
         </activity>
         <activity android:name="com.example.DecorExtended" />
@@ -39,7 +37,7 @@
         <activity android:name="com.example.SofasActivity" />
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
-        <activity android:name="com.example.SplashScreen" >
+        <activity android:name="com.example.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

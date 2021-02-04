@@ -2,6 +2,7 @@ package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Notification;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,7 @@ import com.example.pepperfry.R;
 public class HomeScreen extends AppCompatActivity {
     private ImageView ivFurniture;
     private ImageView ivLiving;
+    private ImageView menuNavigation;
     private ImageView ivBedroom;
     private ImageView ivKidsRoom;
     private ImageView ivMattresses;
@@ -34,6 +36,7 @@ public class HomeScreen extends AppCompatActivity {
         ivFurnishing = findViewById(R.id.ivFurnishing);
         ivDecor = findViewById(R.id.ivDecor);
         ivLighting = findViewById(R.id.ivLighting);
+        menuNavigation=findViewById(R.id.tvMenu_Navigation);
         ivModular = findViewById(R.id.ivModularFurniture);
         ivClearance = findViewById(R.id.ivCleanserSale);
         ivHome = findViewById(R.id.ivHome);
@@ -42,6 +45,14 @@ public class HomeScreen extends AppCompatActivity {
         ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
         ivOffer = findViewById(R.id.offer);
+        menuNavigation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, NavigationActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

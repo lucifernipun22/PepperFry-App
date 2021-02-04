@@ -17,7 +17,19 @@
         <item name="android:layout_marginStart">60dp</item>
         <item name="android:textSize">23sp</item>
     </style>
+    <style name="ForniteStyle" parent="android:Widget.TextView">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/fira_sans</item>
+        <item name="android:textSize">17sp</item>
 
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarSize">90dp</item>
+    </style>
     <style name="discover_title_textStyle2">
         <item name="android:layout_width">25dp</item>
         <item name="android:layout_height">25dp</item>

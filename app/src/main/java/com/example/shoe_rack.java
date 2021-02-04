@@ -56,8 +56,8 @@ public class shoe_rack extends AppCompatActivity {
 
 
     private void setRecyclerData() {
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2);
-        mRecyclerView.setLayoutManager(gridLayoutManager);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
         SectionalAdapter adapter = new SectionalAdapter(sectionalModels);
         mRecyclerView.setAdapter(adapter);
     }
