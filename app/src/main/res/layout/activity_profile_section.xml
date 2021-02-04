@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ProfileSection">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/ic_left_arrow"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/ivShoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_shopping_cart"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toLeftOf="@id/ivShoppingCart"
+            android:background="@drawable/ic_magnifiying_glass"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvFurniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/imBack"
+            android:text="PROFILE"
+            android:textColor="#D2000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Mintu Kumar"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+
+            android:gravity="right"
+            android:text="EDIT"
+            android:textColor="#E74512"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="99282300707"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_stop_24"
+            android:drawablePadding="5dp"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="sainimintu34@gamil.com"
+            android:textColor="#111111"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/Profile"
+            android:drawableStart="@drawable/ic_box"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:text="My Orders" />
+
+        <Button
+            style="@style/Profile"
+            android:textAllCaps="false"
+            android:drawableStart="@drawable/ic_arrival"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:text="Track Orders" />
+
+        <Button
+            style="@style/Profile"
+            android:drawableStart="@drawable/ic_baseline_favorite_border_24"
+            android:layout_width="match_parent"
+            android:drawablePadding="10dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:text="Whishlit" />
+
+        <Button
+            style="@style/Profile"
+            android:drawableStart="@drawable/ic_wallet"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:text="My Wallet" />
+
+        <Button
+            style="@style/Profile"
+            android:drawableStart="@drawable/ic_phone_book"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:textAllCaps="false"
+            android:text="Address Book" />
+
+        <Button
+            style="@style/Profile"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:text="Change password" />
+
+        <Button
+            style="@style/Profile"
+            android:drawableStart="@drawable/ic_verified"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:textAllCaps="false"
+            android:text="Two - Step Verification" />
+
+        <Button
+            style="@style/Profile"
+            android:drawableStart="@drawable/ic_sign_out"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_right_arrow__1_"
+            android:textAllCaps="false"
+            android:text="Sign Out" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

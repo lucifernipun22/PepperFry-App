@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pepperfry">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,14 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
+        <activity android:name="com.example.ProfileSection"></activity>
         <activity android:name="com.example.LoginOrRegister">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
 
 
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
 
         </activity>
         <activity android:name="com.example.DecorExtended" />
@@ -34,7 +37,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
         <activity android:name="com.example.BedroomExtended" />
@@ -42,14 +44,11 @@
         <activity android:name="com.example.FurnishingsExtended" />
         <activity android:name="com.example.FurnitureExtended" />
         <activity android:name="com.example.KidsRoomExtended" />
-        <activity android:name="com.example.LightingExtended" />
-<!--        <activity android:name="com.example.SplashScreen"></activity>-->
+        <activity android:name="com.example.LightingExtended" /> <!-- <activity android:name="com.example.SplashScreen"></activity> -->
         <activity android:name="com.example.LivingExtended" />
         <activity android:name="com.example.MattressesExtended" />
         <activity android:name="com.example.ModularFurnitureExtended" />
-        <activity android:name="com.example.DepartmentsActivity">
-
-        </activity>
+        <activity android:name="com.example.DepartmentsActivity"></activity>
     </application>
 
 </manifest>
