@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.pepperfry.R;
 
-public class Furniture extends AppCompatActivity implements View.OnClickListener {
+public class Furniture extends AppCompatActivity {
     private TextView sofas;
     private TextView seating;
     private TextView chairs;
@@ -64,10 +64,17 @@ public class Furniture extends AppCompatActivity implements View.OnClickListener
                 finish();
             }
         });
-        sofas.setOnClickListener(this);
+        sofas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,SofasActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
-    @Override
+    /*@Override
     public void onClick(View view) {
         int id = view.getId();
         switch (id) {
@@ -76,5 +83,5 @@ public class Furniture extends AppCompatActivity implements View.OnClickListener
                 startActivity(intent);
                 break;
         }
-    }
+    }*/
 }

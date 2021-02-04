@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.pepperfry.R;
 import com.google.android.material.tabs.TabLayout;
 
 public class AlertsActivity extends AppCompatActivity {

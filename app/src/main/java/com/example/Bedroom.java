@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.pepperfry.R;
+
 /*import com.example.pepperfry.R;*/
 
 public class Bedroom extends AppCompatActivity {

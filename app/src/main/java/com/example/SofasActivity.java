@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.pepperfry.R;
+
 import java.util.ArrayList;
 import java.util.List;
 

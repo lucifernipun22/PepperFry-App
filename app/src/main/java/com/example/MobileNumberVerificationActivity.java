@@ -14,7 +14,7 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/*import com.example.pepperfry.R;*/
+import com.example.pepperfry.R;
 
 public class MobileNumberVerificationActivity extends AppCompatActivity {
     private ImageView mIvBackToRegistration, mIvShopCart, mIvSearchBar;

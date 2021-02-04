@@ -9,6 +9,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.pepperfry.R;
 
 public class AllSofasViewsHolder extends RecyclerView.ViewHolder {
     private ImageView mIvSofasImage;
