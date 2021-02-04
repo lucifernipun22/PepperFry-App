@@ -1,16 +1,16 @@
-package com.example.pepperfry;
+package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.pepperfry.R;
+
+public class LivingExtended extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_living_extended);
     }
 }

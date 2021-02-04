@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context=".MobileNumberVerificationActivity">
+    tools:context="com.example.MobileNumberVerificationActivity">
 
     <ImageView
         android:id="@+id/ivbackToRegistration"
@@ -90,50 +90,70 @@
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark_orange"
             android:layout_column="0"
-            android:inputType="phone" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/EtvSecondDigit"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark_orange"
             android:layout_column="1"
-            android:inputType="phone" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/EtvThirdDigit"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark_orange"
             android:layout_column="2"
-            android:inputType="phone" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/EtvFourthDigit"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark_orange"
             android:layout_column="3"
-            android:inputType="phone" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/EtvFifthDigit"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark_orange"
             android:layout_column="4"
-            android:inputType="phone" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/EtvSixthDigit"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/dark_orange"
             android:layout_column="5"
-            android:inputType="phone" />
+            android:inputType="number" />
 
     </GridLayout>
+
+
 
     <TextView
         android:id="@+id/tvOtpValidate"
@@ -172,5 +192,22 @@
         android:textSize="12sp"
         app:layout_constraintLeft_toRightOf="@id/tvOtpnotReceive"
         app:layout_constraintTop_toBottomOf="@id/tvOtpValidate" />
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/gradient_rectangle"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeScreen">
+    tools:context="com.example.HomeScreen">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         style="@style/actionbar_cardView_style"
@@ -475,6 +475,7 @@
                     android:layout_height="300dp">
 
                     <ImageView
+                        android:id="@+id/offer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/offer"

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OrderRelatedFragment">
+    tools:context="com.example.OrderRelatedFragment">
 
     <TextView
         android:id="@+id/tvSign_inPersonal"

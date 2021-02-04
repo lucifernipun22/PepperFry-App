@@ -1,14 +1,16 @@
-package com.example.pepperfry;
+package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class HomeScreen extends AppCompatActivity {
+import com.example.pepperfry.R;
+
+public class ClearanceSaleExtended extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.activity_clearance_sale_extended);
     }
 }

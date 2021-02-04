@@ -1,4 +1,4 @@
-package com.example.pepperfry;
+package com.example;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

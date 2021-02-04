@@ -1,14 +1,16 @@
-package com.example.pepperfry;
+package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Bedroom extends AppCompatActivity {
+import com.example.pepperfry.R;
+
+public class FurnitureExtended extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bedroom);
+        setContentView(R.layout.activity_furniture_extended);
     }
 }

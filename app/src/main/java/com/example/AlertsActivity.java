@@ -1,4 +1,4 @@
-package com.example.pepperfry;
+package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentStatePagerAdapter;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.pepperfry.R;
 import com.google.android.material.tabs.TabLayout;
 
 public class AlertsActivity extends AppCompatActivity {

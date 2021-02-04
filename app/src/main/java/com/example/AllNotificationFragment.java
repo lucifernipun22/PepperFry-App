@@ -1,4 +1,4 @@
-package com.example.pepperfry;
+package com.example;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.pepperfry.R;
 
 
 public class AllNotificationFragment extends Fragment {
