@@ -56,6 +56,14 @@ public class Furniture extends AppCompatActivity {
         ModernWriting = findViewById(R.id.iventertainmentunit);
         DoorWardRobes = findViewById(R.id.ivhangingLights);
         DiningSetSix = findViewById(R.id.ivWallArt);
+        sectionalSofas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,SectionalSofas.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
 
     }
