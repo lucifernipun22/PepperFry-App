@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
         <activity android:name="com.example.LoginOrRegister">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
 
 
 
@@ -43,7 +43,7 @@
         <activity android:name="com.example.FurnitureExtended" />
         <activity android:name="com.example.KidsRoomExtended" />
         <activity android:name="com.example.LightingExtended" />
-        <activity android:name="com.example.SplashScreen"></activity>
+<!--        <activity android:name="com.example.SplashScreen"></activity>-->
         <activity android:name="com.example.LivingExtended" />
         <activity android:name="com.example.MattressesExtended" />
         <activity android:name="com.example.ModularFurnitureExtended" />
