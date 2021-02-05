@@ -19,6 +19,7 @@ private Button mBTNWhishList;
 private Button mBTNAddressBook;
 private Button mBTNChangePassword;
 private TextView mBTNEditButton;
+private TextView mBTNMyWallet;
 
 
     private Intent intent;
@@ -42,6 +43,7 @@ private TextView mBTNEditButton;
         mBTNAddressBook = findViewById(R.id.btnAddressBook);
         mBTNChangePassword = findViewById(R.id.btnChangePassword);
         mBTNEditButton = findViewById(R.id.EditButton);
+        mBTNMyWallet = findViewById(R.id.btnMyWallet);
 
         ivHome = findViewById(R.id.ivHome);
         ivDepartments = findViewById(R.id.ivDepartment);
@@ -156,8 +158,15 @@ private TextView mBTNEditButton;
         mBTNEditButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(ProfileSection.this,ProfileExtendedEditButton.class);
-                startActivity(intent4);
+                Intent intent5 = new Intent(ProfileSection.this,ProfileExtendedEditButton.class);
+                startActivity(intent5);
+            }
+        });
+        mBTNMyWallet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent6 = new Intent(ProfileSection.this,ProfileExtendedMyWallet.class);
+                startActivity(intent6);
             }
         });
 
