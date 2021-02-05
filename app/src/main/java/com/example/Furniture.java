@@ -130,6 +130,14 @@ public class Furniture extends AppCompatActivity{
                 finish();
             }
         });
+        seating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,SeatingActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -139,6 +147,5 @@ public class Furniture extends AppCompatActivity{
             }
         });
     }
-
 
 }
