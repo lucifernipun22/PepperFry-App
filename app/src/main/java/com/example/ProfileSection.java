@@ -13,18 +13,19 @@ import android.widget.TextView;
 import com.example.pepperfry.R;
 
 public class ProfileSection extends AppCompatActivity {
-private Button mBTNMyOrder;
-private Button mBTNTrackOrder;
-private Button mBTNWhishList;
-private Button mBTNAddressBook;
-private Button mBTNChangePassword;
-private TextView mBTNEditButton;
-private TextView mBTNMyWallet;
+    private Button mBTNMyOrder;
+    private Button mBTNTrackOrder;
+    private Button mBTNWhishList;
+    private Button mBTNAddressBook;
+    private Button mBTNChangePassword;
+    private TextView mBTNEditButton;
+    private TextView mBTNMyWallet;
 
 
     private Intent intent;
     private ImageView ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
-    private TextView NameEdit,EmailEdit,EditButton,SignOut,NumberEdit;
+    private TextView NameEdit, EmailEdit, EditButton, SignOut, NumberEdit;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +45,6 @@ private TextView mBTNMyWallet;
         mBTNChangePassword = findViewById(R.id.btnChangePassword);
         mBTNEditButton = findViewById(R.id.EditButton);
         mBTNMyWallet = findViewById(R.id.btnMyWallet);
-
         ivHome = findViewById(R.id.ivHome);
         ivDepartments = findViewById(R.id.ivDepartment);
         ivAlerts = findViewById(R.id.ivAlert);
@@ -54,7 +54,6 @@ private TextView mBTNMyWallet;
         NameEdit = findViewById(R.id.NameEdit);
         NumberEdit = findViewById(R.id.NumberEdit);
         EmailEdit = findViewById(R.id.EmailEdit);
-        EditButton = findViewById(R.id.EditButton);
         SignOut = findViewById(R.id.SignOut);
 
 
@@ -123,50 +122,50 @@ private TextView mBTNMyWallet;
         mBTNMyOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(ProfileSection.this,ProfileExtendedMyOrder.class);
-                startActivity(intent2);
+                intent = new Intent(ProfileSection.this, ProfileExtendedMyOrder.class);
+                startActivity(intent);
             }
         });
         mBTNTrackOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3 = new Intent(ProfileSection.this,ProfileExtendedTrackOrder.class);
-                startActivity(intent3);
+                 intent = new Intent(ProfileSection.this, ProfileExtendedTrackOrder.class);
+                startActivity(intent);
             }
         });
         mBTNWhishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(ProfileSection.this,WhishList.class);
-                startActivity(intent4);
+                intent = new Intent(ProfileSection.this, WhishList.class);
+                startActivity(intent);
             }
         });
         mBTNAddressBook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(ProfileSection.this,ProfileExtendedAddressBook.class);
-                startActivity(intent4);
+                intent = new Intent(ProfileSection.this, ProfileExtendedAddressBook.class);
+                startActivity(intent);
             }
         });
         mBTNChangePassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(ProfileSection.this,ProfileExtendedChangePassword.class);
-                startActivity(intent4);
+                intent = new Intent(ProfileSection.this, ProfileExtendedChangePassword.class);
+                startActivity(intent);
             }
         });
         mBTNEditButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent5 = new Intent(ProfileSection.this,ProfileExtendedEditButton.class);
-                startActivity(intent5);
+                intent = new Intent(ProfileSection.this, ProfileExtendedEditButton.class);
+                startActivity(intent);
             }
         });
         mBTNMyWallet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent6 = new Intent(ProfileSection.this,ProfileExtendedMyWallet.class);
-                startActivity(intent6);
+                intent = new Intent(ProfileSection.this, ProfileExtendedMyWallet.class);
+                startActivity(intent);
             }
         });
 
