@@ -11,23 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.BuyNowActivity"></activity>
+       <!-- <activity android:name="com.example.SeatingActivity"></activity>-->
+        <activity android:name="com.example.BuyNowActivity" />
         <activity android:name="com.example.BuyActivity" />
-        <activity android:name="com.example.SofasActivity">
-           <!-- <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
+        <activity android:name="com.example.SofasActivity"></activity>
         <activity android:name="com.example.SectionalSofas" />
-        <activity android:name="com.example.ProfileExtendedChangePassword"></activity>
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-
+        <activity android:name="com.example.ProfileExtendedChangePassword" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
         <activity android:name="com.example.ProfileExtendedAddressBook" />
         <activity android:name="com.example.WhishList" />
         <activity android:name="com.example.ModularFurniture" />
@@ -38,8 +30,7 @@
         <activity android:name="com.example.ChairActivity" />
         <activity android:name="com.example.NavigationActivity" />
         <activity android:name="com.example.shoe_rack" />
-        <activity android:name="com.example.SignOutConfirm" />
-       <!-- <activity android:name="com.example.SectionalSofas" />-->
+        <activity android:name="com.example.SignOutConfirm" /> <!-- <activity android:name="com.example.SectionalSofas" /> -->
         <activity android:name="com.example.ProfileSection" />
         <activity android:name="com.example.LoginOrRegister">
 
@@ -68,9 +59,7 @@
         </activity>
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
-        <activity android:name="com.example.AlertsActivity">
-
-        </activity>
+        <activity android:name="com.example.AlertsActivity"></activity>
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.FurnishingsExtended" />

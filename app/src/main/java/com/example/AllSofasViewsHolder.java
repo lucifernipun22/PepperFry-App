@@ -14,7 +14,6 @@ import com.example.pepperfry.R;
 public class AllSofasViewsHolder extends RecyclerView.ViewHolder {
     private ImageView mIvSofasImage;
     private TextView mTvSofasName, mTvSofasBrand, mTvSofasPrice;
-    private ConstraintLayout mConstraintLayout;
     private ItemClickListener itemClickListener;
 
     public AllSofasViewsHolder(@NonNull View itemView, ItemClickListener itemClickListener) {
@@ -28,7 +27,6 @@ public class AllSofasViewsHolder extends RecyclerView.ViewHolder {
         mTvSofasName = itemView.findViewById(R.id.TvSofas_Name);
         mTvSofasBrand = itemView.findViewById(R.id.TvSofas_Brand);
         mTvSofasPrice = itemView.findViewById(R.id.TvSofas_Price);
-        mConstraintLayout = itemView.findViewById(R.id.ClSofas);
     }
 
     public void SetSofas(AllSofas sofas) {
@@ -36,7 +34,7 @@ public class AllSofasViewsHolder extends RecyclerView.ViewHolder {
         mTvSofasName.setText(sofas.getTitle());
         mTvSofasBrand.setText(sofas.getBrand());
         mTvSofasPrice.setText(" ₹ " + sofas.getPrice());
-        mConstraintLayout.setOnClickListener(new View.OnClickListener() {
+        mIvSofasImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 itemClickListener.onSofasClicked(sofas);

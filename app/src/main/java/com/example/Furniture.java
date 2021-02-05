@@ -106,8 +106,6 @@ public class Furniture extends AppCompatActivity{
             }
         });
 
-
-
         ivProfiles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

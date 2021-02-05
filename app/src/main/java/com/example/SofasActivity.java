@@ -18,6 +18,7 @@ import java.util.List;
 public class SofasActivity extends AppCompatActivity implements ItemClickListener {
     private ImageView mIVLeftArrow, mIvSettings, mIvHeart, mIvAlert, mIvDepartment, mIvHome;
     private RecyclerView SofasRecyclerView;
+    private Intent intent;
     private List<AllSofas> sofasList = new ArrayList<>();
 
     @Override
@@ -40,8 +41,48 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
         mIVLeftArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SofasActivity.this, Furniture.class);
+                intent = new Intent(SofasActivity.this, Furniture.class);
                 startActivity(intent);
+            }
+        });
+        mIvSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(SofasActivity.this, ProfileSection.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        mIvHeart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,WhishList.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        mIvAlert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,AlertsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        mIvHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        mIvDepartment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,DepartmentsActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
@@ -152,6 +193,11 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
         intent0.putExtra("Image",Image);
         startActivity(intent0);
        /* ShowToast(sofas.getPrice());*/
+    }
+
+    @Override
+    public void onSeatsClicked(AllSeats seats) {
+
     }
 
     public void ShowToast(String message) {

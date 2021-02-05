@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.SofasActivity">
-
+    tools:context="com.example.SeatingActivity">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         style="@style/actionbar_cardView_style"
@@ -16,7 +15,7 @@
         <TextView
             android:id="@+id/tvSofas"
             style="@style/discover_title_textStyle3"
-            android:text="@string/sofas"
+            android:text="Seatings"
             android:textColor="@color/black" />
 
         <ImageView
@@ -37,7 +36,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/RvAllSofas"
+        android:id="@+id/RvAllSeat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -172,4 +171,3 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
