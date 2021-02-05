@@ -435,6 +435,10 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -538,7 +542,7 @@
 
 
             </LinearLayout>
-
+            </HorizontalScrollView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -557,6 +561,10 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -662,7 +670,7 @@
 
                 </RelativeLayout>
             </LinearLayout>
-
+            </HorizontalScrollView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -681,6 +689,10 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -784,7 +796,7 @@
 
 
             </LinearLayout>
-
+            </HorizontalScrollView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -803,6 +815,10 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1033,7 +1049,7 @@
 
                 </RelativeLayout>
             </LinearLayout>
-
+            </HorizontalScrollView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -1052,6 +1068,10 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1176,7 +1196,7 @@
 
 
             </LinearLayout>
-
+            </HorizontalScrollView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -1195,6 +1215,10 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1321,6 +1345,7 @@
                         android:textSize="12sp" />
                 </RelativeLayout>
             </LinearLayout>
+            </HorizontalScrollView>
         </LinearLayout>
 
 

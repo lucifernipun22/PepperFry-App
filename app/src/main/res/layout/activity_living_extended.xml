@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.LivingExtended">
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:padding="5dp"
+        android:layout_height="wrap_content"
         android:background="@color/white"
-        android:layout_height="wrap_content">
+        android:padding="5dp">
 
         <ImageView
             android:id="@+id/imBack"
@@ -19,21 +20,23 @@
             android:layout_margin="15dp"
             android:background="@drawable/ic_left_arrow"
             android:padding="10dp" />
+
         <ImageView
             android:id="@+id/ivShoppingCart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="15dp"
-            android:layout_marginTop="15dp"
             android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/ic_shopping_cart"
             android:padding="10dp" />
+
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_toLeftOf="@id/ivShoppingCart"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
             android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toLeftOf="@id/ivShoppingCart"
             android:background="@drawable/ic_magnifiying_glass"
             android:padding="10dp" />
 
@@ -41,86 +44,93 @@
             android:id="@+id/tvFurniture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="15dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
             android:text="LIVING"
-            android:layout_margin="15dp"
             android:textColor="#D2000000"
             android:textSize="16sp" />
 
     </RelativeLayout>
 
     <Button
-
+        android:id="@+id/Sofas"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
+        android:gravity="start"
         android:text="Sofas"
-        android:gravity="start"
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Seating"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
+        android:gravity="start"
         android:text="Seating"
-        android:gravity="start"
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Chairs"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
+        android:gravity="start"
         android:text="Chairs"
-        android:gravity="start"
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Tables"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
+        android:gravity="start"
         android:text="Tables"
-        android:gravity="start"
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Cabinetry"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
+        android:gravity="start"
         android:text="Cabinetry"
-        android:gravity="start"
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/DiningAndBars"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
+        android:gravity="start"
         android:text="Decor"
-        android:gravity="start"
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Beds"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_plus"
         android:fontFamily="@font/fira_sans"
-        android:text="Lighting"
         android:gravity="start"
+        android:text="Lighting"
         android:textAllCaps="false" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -150,10 +160,10 @@
             android:id="@+id/tvHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
             android:text="@string/home"
             android:textColor="#000000"
             android:textSize="10sp"
-            android:layout_marginBottom="3dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"

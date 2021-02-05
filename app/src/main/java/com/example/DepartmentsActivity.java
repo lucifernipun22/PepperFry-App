@@ -140,19 +140,19 @@ public class DepartmentsActivity extends AppCompatActivity implements View.OnCli
                 startActivity(mattresses);
                 break;
             case R.id.btnFurnishings:
-                Intent furnishings = new Intent(DepartmentsActivity.this, FurnishingsExtended.class);
+                Intent furnishings = new Intent(DepartmentsActivity.this, Furnishings.class);
                 startActivity(furnishings);
                 break;
             case R.id.btnDecor:
-                Intent decor = new Intent(DepartmentsActivity.this, DecorExtended.class);
+                Intent decor = new Intent(DepartmentsActivity.this, Decor.class);
                 startActivity(decor);
                 break;
             case R.id.btnLightings:
-                Intent lightings = new Intent(DepartmentsActivity.this, LightingExtended.class);
+                Intent lightings = new Intent(DepartmentsActivity.this, Lighting.class);
                 startActivity(lightings);
                 break;
             case R.id.btnModularFurniture:
-                Intent modularfurniture = new Intent(DepartmentsActivity.this, ModularFurnitureExtended.class);
+                Intent modularfurniture = new Intent(DepartmentsActivity.this, ModularFurniture.class);
                 startActivity(modularfurniture);
                 break;
             case R.id.btnClearanceSale:

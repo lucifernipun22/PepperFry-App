@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.pepperfry.R;
@@ -12,7 +13,7 @@ import com.example.pepperfry.R;
 public class BedroomExtended extends AppCompatActivity {
     private Intent intent;
     private ImageView ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
-
+    private Button sofas, seating, chairs, tables, cabinetry, dining, beds;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,45 @@ public class BedroomExtended extends AppCompatActivity {
         ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
         back = findViewById(R.id.imBack);
+        sofas=findViewById(R.id.Beds);
+        seating=findViewById(R.id.btnMattresses);
+        chairs=findViewById(R.id.Furnishing);
+        tables=findViewById(R.id.Tables);
+        cabinetry=findViewById(R.id.Cabinetry);
+        dining=findViewById(R.id.Decor);
+        beds=findViewById(R.id.Lighting);
+       seating.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               intent = new Intent(BedroomExtended.this,Mattresses.class);
+               startActivity(intent);
+               finish();
+           }
+       });
+        chairs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(BedroomExtended.this,Furnishings.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        dining.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(BedroomExtended.this,Decor.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        beds.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(BedroomExtended.this,Lighting.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
