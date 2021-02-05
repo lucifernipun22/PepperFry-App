@@ -37,7 +37,7 @@ public class Lighting extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(Lighting.this, WishListFragment.class);
+                intent = new Intent(Lighting.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }

@@ -35,7 +35,7 @@ public class Mattresses extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent =new Intent(Mattresses.this,WishListFragment.class);
+                intent =new Intent(Mattresses.this,WhishList.class);
                 startActivity(intent);
                 finish();
             }

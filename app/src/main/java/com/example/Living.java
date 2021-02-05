@@ -35,7 +35,7 @@ private Intent intent;
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent =new Intent(Living.this,WishListFragment.class);
+                intent =new Intent(Living.this,WhishList.class);
                 startActivity(intent);
                 finish();
             }
