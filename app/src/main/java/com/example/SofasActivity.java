@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.pepperfry.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -121,7 +123,35 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
 
     @Override
     public void onSofasClicked(AllSofas sofas) {
-        ShowToast(sofas.getBrand());
+        Intent intent0 = new Intent(SofasActivity.this, BuyActivity.class);
+        String Name = sofas.getTitle();
+        String Price = sofas.getPrice();
+        String Brand = sofas.getBrand();
+        String Dimension = sofas.getDimensions();
+        String Weight = sofas.getWeight();
+        String Warranty = sofas.getWarranty();
+        String Assembly = sofas.getAssembly();
+        String Primary_Material = sofas.getPrimary_Material();
+        String Room_Type = sofas.getRoom_Type();
+        String Collection = sofas.getCollection();
+        String Seating_Height = sofas.getSeating_Height();
+        String Sku = sofas.getSku();
+        String Image = sofas.getSofa_image();
+        intent0.putExtra("Name",Name);
+        intent0.putExtra("Price",Price);
+        intent0.putExtra("Dimension",Dimension);
+        intent0.putExtra("Weight",Weight);
+        intent0.putExtra("Warranty",Warranty);
+        intent0.putExtra("Assembly",Assembly);
+        intent0.putExtra("Primary_Material",Primary_Material);
+        intent0.putExtra("Room_Type",Room_Type);
+        intent0.putExtra("Collection",Collection);
+        intent0.putExtra("Brand",Brand);
+        intent0.putExtra("Seating_Height",Seating_Height);
+        intent0.putExtra("Sku",Sku);
+        intent0.putExtra("Image",Image);
+        startActivity(intent0);
+       /* ShowToast(sofas.getPrice());*/
     }
 
     public void ShowToast(String message) {

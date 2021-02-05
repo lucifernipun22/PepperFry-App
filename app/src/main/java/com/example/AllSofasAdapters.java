@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.pepperfry.R;
+
 import java.util.List;
 
 public class AllSofasAdapters extends RecyclerView.Adapter<AllSofasViewsHolder> {

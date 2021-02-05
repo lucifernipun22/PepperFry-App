@@ -11,20 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.SectionalSofas">
+        <activity android:name="com.example.BuyNowActivity"></activity>
+        <activity android:name="com.example.BuyActivity" />
+        <activity android:name="com.example.SofasActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name="com.example.SectionalSofas" />
         <activity android:name="com.example.ProfileSection" />
-        <activity android:name="com.example.LoginOrRegister">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-
-        </activity>
+        <activity android:name="com.example.LoginOrRegister" />
         <activity android:name="com.example.DecorExtended" />
         <activity android:name="com.example.StartShoppingActivity" />
         <activity android:name="com.example.MobileNumberVerificationActivity" />
@@ -34,23 +32,24 @@
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
         <activity android:name="com.example.SplashScreen">
+
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
         </activity>
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
-        <activity android:name="com.example.AlertsActivity">
-
-        </activity>
+        <activity android:name="com.example.AlertsActivity" />
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.FurnishingsExtended" />
         <activity android:name="com.example.FurnitureExtended" />
         <activity android:name="com.example.KidsRoomExtended" />
-        <activity android:name="com.example.LightingExtended" /> <!-- <activity android:name="com.example.SplashScreen"></activity> -->
+        <activity android:name="com.example.LightingExtended" />
         <activity android:name="com.example.LivingExtended" />
         <activity android:name="com.example.MattressesExtended" />
         <activity android:name="com.example.ModularFurnitureExtended" />

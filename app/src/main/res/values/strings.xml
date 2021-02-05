@@ -43,4 +43,5 @@
     <string name="coupon_details">Coupon details along with a verification link</string>
     <string name="dining_bars"><![CDATA[Dining & Bars]]></string>
     <string name="sofas">Sofas</string>
+    <string name="get_extra"></string>
 </resources>

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-/*import com.example.pepperfry.R;*/
+import com.example.pepperfry.R;
 
 public class HomeScreen extends AppCompatActivity {
     private ImageView ivFurniture;

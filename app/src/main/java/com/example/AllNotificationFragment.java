@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.pepperfry.R;
+
 /*import com.example.pepperfry;*/
 
 
