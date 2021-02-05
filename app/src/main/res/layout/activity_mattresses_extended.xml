@@ -52,6 +52,7 @@
 
     </RelativeLayout>
     <Button
+        android:id="@+id/btnMattresses1"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,6 +62,7 @@
         android:gravity="start"
         android:textAllCaps="false" />
     <Button
+        android:id="@+id/btnMattresses2"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,6 +72,7 @@
         android:gravity="start"
         android:textAllCaps="false" />
     <Button
+        android:id="@+id/btnMattresses3"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -79,6 +82,7 @@
         android:gravity="start"
         android:textAllCaps="false" />
     <Button
+        android:id="@+id/btnMattresses4"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
