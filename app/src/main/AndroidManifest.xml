@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.pepperfry">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,11 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.BuyNowActivity"></activity>
-        <activity android:name="com.example.BuyActivity" />
-        <activity android:name="com.example.SofasActivity">
+        <activity android:name="com.example.ProfileExtendedMyWallet">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+
 
         </activity>
+        <activity android:name="com.example.ProfileExtendedEditButton" />
+        <activity android:name="com.example.BuyNowActivity" />
+        <activity android:name="com.example.BuyActivity" />
+        <activity android:name="com.example.SofasActivity" />
         <activity android:name="com.example.SectionalSofas" />
         <activity android:name="com.example.SplashScreen">
             <intent-filter>
@@ -25,19 +33,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
-        <activity android:name="com.example.ProfileExtendedChangePassword">
-
-
-
-
-        </activity>
-
-<activity android:name="com.example.ProfileExtendedMyOrder"/>
-        <activity android:name="com.example.ProfileExtendedTrackOrder"/>
-            <activity android:name="com.example.ProfileExtendedAddressBook" />
+        <activity android:name="com.example.ProfileExtendedChangePassword" />
+        <activity android:name="com.example.ProfileExtendedMyOrder" />
+        <activity android:name="com.example.ProfileExtendedTrackOrder" />
+        <activity android:name="com.example.ProfileExtendedAddressBook" />
         <activity android:name="com.example.WhishList" />
         <activity android:name="com.example.ModularFurniture" />
         <activity android:name="com.example.Lighting" />
@@ -45,12 +44,9 @@
         <activity android:name="com.example.Furnishings" />
         <activity android:name="com.example.Mattresses" />
         <activity android:name="com.example.ChairActivity" />
-        <activity android:name="com.example.NavigationActivity" >
-
-        </activity>
+        <activity android:name="com.example.NavigationActivity" />
         <activity android:name="com.example.shoe_rack" />
-        <activity android:name="com.example.SignOutConfirm" />
-
+        <activity android:name="com.example.SignOutConfirm" /> <!-- <activity android:name="com.example.SectionalSofas" /> -->
         <activity android:name="com.example.ProfileSection" />
         <activity android:name="com.example.LoginOrRegister">
 
@@ -68,7 +64,6 @@
         <activity android:name="com.example.KidsRoom" />
         <activity android:name="com.example.Bedroom" />
         <activity android:name="com.example.Living" />
-
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
 
