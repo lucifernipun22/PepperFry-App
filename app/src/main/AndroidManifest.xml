@@ -78,13 +78,7 @@
         <activity android:name="com.example.Living" />
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
-        <activity android:name="com.example.SplashScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
         <activity android:name="com.example.AlertsActivity" />
