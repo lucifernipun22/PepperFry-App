@@ -13,11 +13,11 @@ import java.util.List;
 
 public class AllSeatsAdapters extends RecyclerView.Adapter<AllSeatsViewHolder> {
 
-    private List<AllSeats> seatsList;
+    private List<AllSeats> allSeatsList;
     private ItemClickListener itemClickListener;
 
-    public AllSeatsAdapters(List<AllSeats> seatsList, ItemClickListener itemClickListener) {
-        this.seatsList = seatsList;
+    public AllSeatsAdapters(List<AllSeats> allSeatsList, ItemClickListener itemClickListener) {
+        this.allSeatsList = allSeatsList;
         this.itemClickListener = itemClickListener;
     }
 
@@ -30,12 +30,12 @@ public class AllSeatsAdapters extends RecyclerView.Adapter<AllSeatsViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull AllSeatsViewHolder holder, int position) {
-        AllSeats allSteats = seatsList.get(position);
-        holder.SetSeats(allSteats);
+        AllSeats allSeats = allSeatsList.get(position);
+        holder.SetAllSeats(allSeats);
     }
 
     @Override
     public int getItemCount() {
-        return seatsList.size();
+        return allSeatsList.size();
     }
 }

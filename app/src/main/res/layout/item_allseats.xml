@@ -15,7 +15,7 @@
         android:layout_margin="5dp">
 
         <ImageView
-            android:id="@+id/IvSeats"
+            android:id="@+id/IvSeatsImages"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:src="@drawable/logo"
@@ -30,12 +30,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:paddingLeft="2dp"
-            android:text="sofas name"
+            android:text="Seats name"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:textStyle="normal"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/IvSeats" />
+            app:layout_constraintTop_toBottomOf="@id/IvSeatsImages" />
 
         <TextView
             android:id="@+id/TvSeats_Brand"

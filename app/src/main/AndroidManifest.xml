@@ -11,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-       <!-- <activity android:name="com.example.SeatingActivity"></activity>-->
+        <activity android:name="com.example.SeatingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.BuyNowActivity" />
         <activity android:name="com.example.BuyActivity" />
         <activity android:name="com.example.SofasActivity"></activity>
@@ -51,11 +57,11 @@
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
         <activity android:name="com.example.SplashScreen">
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
