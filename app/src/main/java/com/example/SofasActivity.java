@@ -19,6 +19,7 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
     private ImageView ivClearance, ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
     private RecyclerView SofasRecyclerView;
     private Intent intent;
+
     private List<AllSofas> sofasList = new ArrayList<>();
 
     @Override
