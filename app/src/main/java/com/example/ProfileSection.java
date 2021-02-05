@@ -18,6 +18,8 @@ private Button mBTNTrackOrder;
 private Button mBTNWhishList;
 private Button mBTNAddressBook;
 private Button mBTNChangePassword;
+private TextView mBTNEditButton;
+
 
     private Intent intent;
     private ImageView ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
@@ -39,6 +41,7 @@ private Button mBTNChangePassword;
         mBTNWhishList = findViewById(R.id.btnWhishList);
         mBTNAddressBook = findViewById(R.id.btnAddressBook);
         mBTNChangePassword = findViewById(R.id.btnChangePassword);
+        mBTNEditButton = findViewById(R.id.EditButton);
 
         ivHome = findViewById(R.id.ivHome);
         ivDepartments = findViewById(R.id.ivDepartment);
@@ -147,6 +150,13 @@ private Button mBTNChangePassword;
             @Override
             public void onClick(View v) {
                 Intent intent4 = new Intent(ProfileSection.this,ProfileExtendedChangePassword.class);
+                startActivity(intent4);
+            }
+        });
+        mBTNEditButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4 = new Intent(ProfileSection.this,ProfileExtendedEditButton.class);
                 startActivity(intent4);
             }
         });
