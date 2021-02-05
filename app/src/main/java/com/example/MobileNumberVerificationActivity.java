@@ -44,7 +44,7 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
         mTvOtpValidate = findViewById(R.id.tvOtpValidate);
         mTvOtpNotReceive = findViewById(R.id.tvOtpnotReceive);
         mTvOtpResend = findViewById(R.id.tvOtpResend);
-        mGirdRow = findViewById(R.id.gridRow);
+        
         otpEditText = findViewById(R.id.etOtp);
         btnConfirm =findViewById(R.id.buttonConfirm);
         mIvBackToRegistration.setOnClickListener(new View.OnClickListener() {
