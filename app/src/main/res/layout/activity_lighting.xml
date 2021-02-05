@@ -493,7 +493,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/sectional_sofa"
+                            android:src="@drawable/wallscones"
 
                             />
 
@@ -504,7 +504,7 @@
                             android:layout_below="@+id/ivThreeSeater"
                             android:layout_marginTop="20dp"
                             android:gravity="center"
-                            android:text="SECTIONAL SOFAS\nStarting ₹ 19900"
+                            android:text="WALL SCONES\nStarting ₹ 400"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -525,7 +525,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/shoe_rack"
+                            android:src="@drawable/tablelaps"
 
                             />
 
@@ -536,7 +536,7 @@
                             android:layout_below="@+id/ivFlowerLamp"
                             android:layout_marginTop="20dp"
                             android:gravity="center"
-                            android:text="SHOE RACKS\nStarting ₹ 800"
+                            android:text="TABLE LAMPS\nStarting ₹ 500"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -557,7 +557,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/chair"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/sectional_sofa"
+                            android:src="@drawable/chandeliers"
 
                             />
 
@@ -568,7 +568,7 @@
                             android:layout_below="@+id/ivCoffeeTables"
                             android:layout_marginTop="20dp"
                             android:gravity="center"
-                            android:text="OFFICE CHAIRS\nStarting ₹ 2400"
+                            android:text="CHANDELIERS\nStarting ₹ 1300"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -625,7 +625,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/storage"
+                            android:src="@drawable/metallic"
 
                             />
 
@@ -650,7 +650,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/dining_room"
+                            android:src="@drawable/timeless"
 
                             />
 
@@ -675,7 +675,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/bed_room"
+                            android:src="@drawable/pretty"
 
                             />
 
@@ -700,7 +700,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/leather"
+                            android:src="@drawable/reader"
 
                             />
 
@@ -751,7 +751,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/tables"
+                            android:src="@drawable/tableslamp"
 
                             />
 
@@ -762,7 +762,7 @@
                             android:layout_below="@+id/iventertainmentunit"
                             android:layout_marginTop="20dp"
                             android:gravity="center"
-                            android:text="Modern Writing\nTables"
+                            android:text="Tables Lapms"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -783,7 +783,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/img_black"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/wardrobes"
+                            android:src="@drawable/hanging"
 
                             />
 
@@ -794,7 +794,7 @@
                             android:layout_below="@+id/ivhangingLights"
                             android:layout_marginTop="20dp"
                             android:gravity="center"
-                            android:text="3 Door Wardrobes"
+                            android:text="Hanging Lights"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -815,7 +815,7 @@
                             android:layout_height="250dp"
                             android:background="@drawable/chair"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/dining_tables"
+                            android:src="@drawable/studytable"
 
                             />
 
@@ -826,7 +826,7 @@
                             android:layout_below="@+id/ivWallArt"
                             android:layout_marginTop="20dp"
                             android:gravity="center"
-                            android:text="6 Seater Dining\nSets"
+                            android:text="Study Lamps"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -1092,154 +1092,7 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="#c3c2c5"
-                android:gravity="center"
-                android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
-                    android:text="FEATURED COLLECTIONS"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <HorizontalScrollView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scrollbars="none">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#c2c3c5">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="330dp"
-                        android:layout_height="150dp"
-                        android:layout_marginLeft="4dp"
-                        android:layout_marginRight="4dp"
-                        android:background="@color/white">
-
-                        <ImageView
-                            android:id="@+id/ivAndres"
-                            android:layout_width="230dp"
-                            android:layout_height="150dp"
-                            android:layout_marginStart="3dp"
-                            android:layout_marginTop="3dp"
-
-                            android:background="@drawable/img_black"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/siramika"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/tvAndres"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_marginStart="11dp"
-                            android:gravity="start"
-                            android:text="Collection\nSIRAMIKA"
-                            android:textColor="#000000"
-                            android:textSize="12sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/ivAndres"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@+id/ivAndres"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="330dp"
-                        android:layout_height="150dp"
-                        android:layout_marginLeft="4dp"
-                        android:layout_marginRight="4dp"
-                        android:background="@color/white">
-
-                        <ImageView
-                            android:id="@+id/ivRapid"
-                            android:layout_width="230dp"
-                            android:layout_height="150dp"
-                            android:layout_marginStart="3dp"
-                            android:layout_marginTop="3dp"
-
-                            android:background="@drawable/img_black"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/sofa"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/tvRapid"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_marginStart="11dp"
-                            android:gravity="start"
-                            android:text="Collection\nTANAKA"
-                            android:textColor="#000000"
-                            android:textSize="12sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/ivRapid"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@+id/ivRapid"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="330dp"
-                        android:layout_height="150dp"
-                        android:layout_marginLeft="4dp"
-                        android:layout_marginRight="4dp"
-                        android:background="@color/white">
-
-                        <ImageView
-                            android:id="@+id/ivAura"
-                            android:layout_width="230dp"
-                            android:layout_height="150dp"
-                            android:layout_marginStart="3dp"
-                            android:layout_marginTop="3dp"
-
-                            android:background="@drawable/img_black"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/industrial"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/tvAura"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_marginStart="11dp"
-                            android:gravity="start"
-                            android:text="Collection\nINDUSTRIAL LITE "
-                            android:textColor="#000000"
-                            android:textSize="12sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/ivAura"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@+id/ivAura"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-                </LinearLayout>
-            </HorizontalScrollView>
 
             <LinearLayout
                 android:layout_width="match_parent"

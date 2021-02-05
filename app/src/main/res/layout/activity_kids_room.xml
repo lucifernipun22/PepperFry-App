@@ -457,7 +457,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/sectional_sofa"
+                        android:src="@drawable/studytable"
 
                         />
 
@@ -468,7 +468,7 @@
                         android:layout_below="@+id/ivThreeSeater"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="SECTIONAL SOFAS\nStarting ₹ 19900"
+                        android:text="LIDS STUDY TABLES\nStarting ₹ 7000"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -489,7 +489,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/shoe_rack"
+                        android:src="@drawable/bunkbed"
 
                         />
 
@@ -500,7 +500,7 @@
                         android:layout_below="@+id/ivFlowerLamp"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="SHOE RACKS\nStarting ₹ 800"
+                        android:text="BUNK BEDS\nStarting ₹ 11400"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -521,7 +521,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/chair"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/sectional_sofa"
+                        android:src="@drawable/kidsbook"
 
                         />
 
@@ -532,7 +532,7 @@
                         android:layout_below="@+id/ivCoffeeTables"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="OFFICE CHAIRS\nStarting ₹ 2400"
+                        android:text="KIDS BOOKSHELF\nStarting ₹ 1700"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -586,7 +586,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/storage"
+                        android:src="@drawable/offonkids"
 
                         />
 
@@ -611,7 +611,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/dining_room"
+                        android:src="@drawable/studyrooms"
 
                         />
 
@@ -636,7 +636,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bed_room"
+                        android:src="@drawable/doublestorage"
 
                         />
 
@@ -661,7 +661,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/leather"
+                        android:src="@drawable/diggest"
 
                         />
 
@@ -709,7 +709,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/tables"
+                        android:src="@drawable/cribes"
 
                         />
 
@@ -720,7 +720,7 @@
                         android:layout_below="@+id/iventertainmentunit"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="Modern Writing\nTables"
+                        android:text="Cribes"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -741,7 +741,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/wardrobes"
+                        android:src="@drawable/activitytables"
 
                         />
 
@@ -752,7 +752,7 @@
                         android:layout_below="@+id/ivhangingLights"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="3 Door Wardrobes"
+                        android:text="Activity Tables"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -773,7 +773,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/chair"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/dining_tables"
+                        android:src="@drawable/artaesels"
 
                         />
 
@@ -784,7 +784,7 @@
                         android:layout_below="@+id/ivWallArt"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="6 Seater Dining\nSets"
+                        android:text="Art Easels"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 

@@ -605,7 +605,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/sectional_sofa"
+                        android:src="@drawable/bed"
 
                         />
 
@@ -616,7 +616,7 @@
                         android:layout_below="@+id/ivThreeSeater"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="SECTIONAL SOFAS\nStarting ₹ 19900"
+                        android:text="Queen Size Beds\nStarting ₹ 6400"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -637,7 +637,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/shoe_rack"
+                        android:src="@drawable/bedding"
 
                         />
 
@@ -648,7 +648,7 @@
                         android:layout_below="@+id/ivFlowerLamp"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="SHOE RACKS\nStarting ₹ 800"
+                        android:text="Bedding Sets\nStarting ₹ 1600"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -669,7 +669,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/chair"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/sectional_sofa"
+                        android:src="@drawable/dressing"
 
                         />
 
@@ -680,7 +680,7 @@
                         android:layout_below="@+id/ivCoffeeTables"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="OFFICE CHAIRS\nStarting ₹ 2400"
+                        android:text="Dressing Tables\nStarting ₹ 3900"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -734,7 +734,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/storage"
+                        android:src="@drawable/fifty"
 
                         />
 
@@ -759,7 +759,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/dining_room"
+                        android:src="@drawable/twothiplenine"
 
                         />
 
@@ -784,7 +784,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bed_room"
+                        android:src="@drawable/most"
 
                         />
 
@@ -809,7 +809,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/leather"
+                        android:src="@drawable/offer3"
 
                         />
 
@@ -857,7 +857,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/tables"
+                        android:src="@drawable/bedsidetable"
 
                         />
 
@@ -868,7 +868,7 @@
                         android:layout_below="@+id/iventertainmentunit"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="Modern Writing\nTables"
+                        android:text="Bedside Tables"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -889,7 +889,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/wardrobes"
+                        android:src="@drawable/tablelamp"
 
                         />
 
@@ -900,7 +900,7 @@
                         android:layout_below="@+id/ivhangingLights"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="3 Door Wardrobes"
+                        android:text="Table Lamp"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -921,7 +921,7 @@
                         android:layout_height="250dp"
                         android:background="@drawable/chair"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/dining_tables"
+                        android:src="@drawable/carpet"
 
                         />
 
@@ -932,7 +932,7 @@
                         android:layout_below="@+id/ivWallArt"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
-                        android:text="6 Seater Dining\nSets"
+                        android:text="Carpets"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -1236,7 +1236,7 @@
 
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/siramika"
+                        android:src="@drawable/woodway"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -1248,7 +1248,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_marginStart="11dp"
                         android:gravity="start"
-                        android:text="Collection\nSIRAMIKA"
+                        android:text="Collection\nWOODWAY"
                         android:textColor="#000000"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/ivAndres"
@@ -1275,7 +1275,7 @@
 
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/sofa"
+                        android:src="@drawable/hayao"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -1287,7 +1287,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_marginStart="11dp"
                         android:gravity="start"
-                        android:text="Collection\nTANAKA"
+                        android:text="Collection\nHAYAO"
                         android:textColor="#000000"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/ivRapid"
@@ -1314,7 +1314,7 @@
 
                         android:background="@drawable/img_black"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/industrial"
+                        android:src="@drawable/ritmo"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -1326,7 +1326,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_marginStart="11dp"
                         android:gravity="start"
-                        android:text="Collection\nINDUSTRIAL LITE "
+                        android:text="Collection\nRITMO"
                         android:textColor="#000000"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/ivAura"
