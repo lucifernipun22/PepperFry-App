@@ -16,8 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SofasActivity extends AppCompatActivity implements ItemClickListener {
-    private ImageView mIVLeftArrow, mIvSettings, mIvHeart, mIvAlert, mIvDepartment, mIvHome;
+    private ImageView ivClearance, ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
     private RecyclerView SofasRecyclerView;
+    private Intent intent;
     private List<AllSofas> sofasList = new ArrayList<>();
 
     @Override
@@ -30,18 +31,62 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
     }
 
     private void initViews() {
-        mIVLeftArrow = findViewById(R.id.ivLeftArrowSofas);
-        mIvSettings = findViewById(R.id.ivSettings);
-        mIvHeart = findViewById(R.id.ivHeart);
-        mIvAlert = findViewById(R.id.ivAlert);
-        mIvDepartment = findViewById(R.id.ivDepartment);
-        mIvHome = findViewById(R.id.ivHome);
+        back = findViewById(R.id.ivLeftArrowSofas);
+        ivHome = findViewById(R.id.ivHome);
+        ivDepartments = findViewById(R.id.ivDepartment);
+        ivAlerts = findViewById(R.id.ivAlert);
+        ivWishList = findViewById(R.id.ivHeart);
+        ivProfiles = findViewById(R.id.ivSettings);
         SofasRecyclerView = findViewById(R.id.RvAllSofas);
-        mIVLeftArrow.setOnClickListener(new View.OnClickListener() {
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SofasActivity.this, Furniture.class);
+                 intent = new Intent(SofasActivity.this, Furniture.class);
                 startActivity(intent);
+            }
+        });
+        ivWishList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,WhishList.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ivAlerts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,AlertsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivDepartments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,DepartmentsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+
+
+        ivProfiles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(SofasActivity.this, ProfileSection.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

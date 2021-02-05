@@ -8,23 +8,11 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:fitsSystemWindows="true"
 tools:context="com.example.NavigationActivity"
-tools:openDrawer="start"
     >
-<LinearLayout
-    android:id="@+id/line1"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/Toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        />
 
-</LinearLayout>
+
+
+
 <com.google.android.material.navigation.NavigationView
     android:id="@+id/nav_view"
     android:layout_width="wrap_content"
@@ -32,176 +20,10 @@ tools:openDrawer="start"
     android:layout_gravity="start"
     app:headerLayout="@layout/head_nav"
     app:itemTextAppearance="@style/ForniteStyle"
-    app:itemTextColor="@android:color/white"
+    app:itemTextColor="@color/black"
     app:itemIconTint="@android:color/white"
-    app:menu="@menu/menu">
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/NameSaved"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="nipun"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/shopByDepartment"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.102"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.547" />
-
-        <TextView
-            android:id="@+id/gmailSaved"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="nipun@gmail.com"
-            android:textColor="@color/black"
-            android:textSize="11sp"
-            app:layout_constraintBottom_toTopOf="@+id/shopByDepartment"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.136"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.746" />
-
-        <TextView
-            android:id="@+id/shopByDepartment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fira_sans"
-            android:gravity="start"
-            android:drawablePadding="100dp"
-            android:text="SHOP BY DEPARTMENT"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.181"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.204" />
-
-        <ImageView
-            android:id="@+id/Arrow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/ic_right_arrow__1_"
-            app:layout_constraintBottom_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <View
-            android:id="@+id/view5"
-            android:layout_width="wrap_content"
-            android:layout_height="1dp"
-            android:background="#c3c2c5"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.014" />
-
-        <TextView
-            android:id="@+id/GiftCard"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Gift Cards"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.115"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.058" />
-
-        <TextView
-            android:id="@+id/FindAStudio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Find A Studio"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.126"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.15" />
-
-        <TextView
-            android:id="@+id/BuyOnPhone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Buy On Phone"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.129"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.239" />
-
-        <TextView
-            android:id="@+id/MyAccount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="My Account"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.121"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.326" />
-
-        <TextView
-            android:id="@+id/TrackOrder"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Track Order"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.12"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.415" />
-
-
-
-        <TextView
-            android:id="@+id/NeedHelp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Need Help?"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.116"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.49" />
-        <TextView
-            android:id="@+id/AboutUs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="About Us"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.116"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.575" />
-
-        <View
-            android:id="@+id/view6"
-            android:layout_width="wrap_content"
-            android:layout_height="1dp"
-            android:background="#c3c2c5"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/shopByDepartment"
-            app:layout_constraintVertical_bias="0.636" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    app:menu="@menu/menu"
+    >
 
 
 

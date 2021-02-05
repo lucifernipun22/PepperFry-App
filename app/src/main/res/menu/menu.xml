@@ -1,28 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation">
-    <group android:checkableBehavior="single">
-        <item
-            android:icon="@drawable/ico"
-            android:title="Home" />
-        <item
-            android:icon="@drawable/icon"
-            android:title="Home" />
-        <item
-            android:icon="@drawable/profil"
-            android:title="Home" />
-    </group>
-    <item android:title="">
-        <menu>
-            <item
-                android:icon="@drawable/fortnite"
-                android:title="WEB" />
-            <item
-                android:icon="@drawable/iconk"
-                android:title="EXIT" />
-        </menu>
-    </item>
+<?xml version="1.0"?>
 
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_giftcard"
+        android:title="Gift Cards"
+        />
+    <item
+        android:id="@+id/action_Corporate"
+        android:title="Corporate Enquiry"
+        />
+    <item
+        android:id="@+id/action_Find_A_Studio"
+        android:title="Find A Studio"
+        />
+    <item
+        android:id="@+id/action_BuyOnPhone"
+        android:title="Buy On Phone"
+        />
+    <item
+        android:id="@+id/MyAccount"
+        android:title="My Account"
+        />
+    <item
+        android:id="@+id/TrackOrder"
+        android:title="Track Order"
+        />
 
 </menu>
