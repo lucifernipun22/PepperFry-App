@@ -20,7 +20,7 @@
     <style name="ForniteStyle" parent="android:Widget.TextView">
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/fira_sans</item>
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">15sp</item>
 
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">

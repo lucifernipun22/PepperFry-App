@@ -61,6 +61,18 @@ public class BuyActivity extends AppCompatActivity {
         BtnAddToCard = findViewById(R.id.BtnAddToCard);
         BtnBuyNow = findViewById(R.id.BtnBuyNow);
         IvItemImage = findViewById(R.id.IvItemImage);
+        BtnAddToCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(BuyActivity.this, BuyNowActivity.class);
+                intent1.putExtra("Name",Name);
+                intent1.putExtra("Price",Price);
+                intent1.putExtra("Brand",Brand);
+                intent1.putExtra("Warranty",Name);
+                intent1.putExtra("Image",Image);
+                startActivity(intent1);
+            }
+        });
         IvBackToSofas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -26,6 +26,26 @@
         <!-- <action android:name="android.intent.action.MAIN" /> -->
         <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
         <!-- </intent-filter> -->
+        <activity android:name="com.example.ProfileExtendedMyWallet">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+
+
+        </activity>
+        <activity android:name="com.example.ProfileExtendedEditButton" />
+        <activity android:name="com.example.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ProfileExtendedMyOrder" />
+        <activity android:name="com.example.ProfileExtendedTrackOrder" />
         <activity android:name="com.example.ProfileExtendedAddressBook" />
         <activity android:name="com.example.WhishList" />
         <activity android:name="com.example.ModularFurniture" />
@@ -57,15 +77,17 @@
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
         <activity android:name="com.example.SplashScreen">
-            <!--<intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
         </activity>
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
-        <activity android:name="com.example.AlertsActivity"></activity>
+        <activity android:name="com.example.AlertsActivity">
+
+        </activity>
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.FurnishingsExtended" />

@@ -72,6 +72,7 @@
             android:textStyle="bold" />
 
         <TextView
+
             android:id="@+id/EditButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -166,6 +167,7 @@
             android:layout_height="1dp"/>
         <Button
             style="@style/Profile"
+            android:id="@+id/btnMyWallet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_wallet"

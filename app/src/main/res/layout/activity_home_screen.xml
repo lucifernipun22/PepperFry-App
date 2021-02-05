@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.HomeScreen">
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         style="@style/actionbar_cardView_style"

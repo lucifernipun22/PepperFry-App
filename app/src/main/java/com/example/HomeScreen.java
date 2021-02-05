@@ -1,11 +1,15 @@
 package com.example;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.Notification;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -23,7 +27,10 @@ public class HomeScreen extends AppCompatActivity {
     private ImageView ivLighting;
     private ImageView ivModular;
     private ImageView ivClearance, ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, ivOffer;
+
     private Intent intent;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,12 +53,13 @@ public class HomeScreen extends AppCompatActivity {
         ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
         ivOffer = findViewById(R.id.offer);
+
         ivBedroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, Bedroom.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivKidsRoom.setOnClickListener(new View.OnClickListener() {
@@ -59,7 +67,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, KidsRoom.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivMattresses.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +75,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, Mattresses.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivFurnishing.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +83,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, Furnishings.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivDecor.setOnClickListener(new View.OnClickListener() {
@@ -83,7 +91,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, Decor.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivLighting.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +99,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, Lighting.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivModular.setOnClickListener(new View.OnClickListener() {
@@ -99,7 +107,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, ModularFurniture.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         menuNavigation.setOnClickListener(new View.OnClickListener() {
@@ -107,7 +115,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent= new Intent(HomeScreen.this, NavigationActivity.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivWishList.setOnClickListener(new View.OnClickListener() {
@@ -115,7 +123,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,WhishList.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivHome.setOnClickListener(new View.OnClickListener() {
@@ -123,7 +131,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,HomeScreen.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
 
@@ -132,7 +140,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,AlertsActivity.class);
                 startActivity(intent);
-               finish();
+//               finish();
             }
         });
         ivDepartments.setOnClickListener(new View.OnClickListener() {
@@ -140,7 +148,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,DepartmentsActivity.class);
                 startActivity(intent);
-              finish();
+//              finish();
             }
         });
 
@@ -151,7 +159,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(HomeScreen.this, ProfileSection.class);
                 startActivity(intent);
-               finish();
+//               finish();
             }
         });
         ivFurniture.setOnClickListener(new View.OnClickListener() {
@@ -159,7 +167,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(HomeScreen.this, Furniture.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivLiving.setOnClickListener(new View.OnClickListener() {
@@ -167,7 +175,7 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(HomeScreen.this, Living.class);
                 startActivity(intent);
-               finish();
+//               finish();
             }
         });
         ivOffer.setOnClickListener(new View.OnClickListener() {
@@ -175,9 +183,10 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent=new Intent(HomeScreen.this,Furniture.class);
                 startActivity(intent);
-               finish();
+//               finish();
             }
         });
     }
+
 
 }

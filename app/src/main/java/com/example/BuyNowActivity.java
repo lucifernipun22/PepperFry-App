@@ -65,7 +65,7 @@ private  String Name,Price,Brand,Warranty,Image;
             TvBuyNowItemName.setText(Name);
             TvBuyNowItemBrand.setText(Brand);
             TvBuyNowItemWarranty.setText(Warranty);
-            TvBuyNowItemSubPrice.setText(Price);
+            TvBuyNowItemSubPrice.setText("₹ "+Price);
         }
     }
 }
