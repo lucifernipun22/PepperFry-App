@@ -128,6 +128,11 @@
             android:drawablePadding="10dp"
             android:text="My Orders"
             android:textAllCaps="false" />
+        <View
+            android:layout_width="match_parent"
+            android:background="#7D545050"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="1dp"/>
 
         <Button
             style="@style/Profile"
@@ -139,7 +144,11 @@
             android:drawablePadding="10dp"
             android:text="Track Orders"
             android:textAllCaps="false" />
-
+        <View
+            android:layout_width="match_parent"
+            android:background="#7D545050"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="1dp"/>
         <Button
             style="@style/Profile"
             android:layout_width="match_parent"
@@ -149,7 +158,11 @@
             android:drawablePadding="10dp"
             android:text="Whishlit"
             android:textAllCaps="false" />
-
+        <View
+            android:layout_width="match_parent"
+            android:background="#7D545050"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="1dp"/>
         <Button
             style="@style/Profile"
             android:layout_width="match_parent"
@@ -159,7 +172,11 @@
             android:drawablePadding="10dp"
             android:text="My Wallet"
             android:textAllCaps="false" />
-
+        <View
+            android:layout_width="match_parent"
+            android:background="#7D545050"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="1dp"/>
         <Button
             style="@style/Profile"
             android:layout_width="match_parent"
@@ -169,7 +186,11 @@
             android:drawablePadding="10dp"
             android:text="Address Book"
             android:textAllCaps="false" />
-
+        <View
+            android:layout_width="match_parent"
+            android:background="#7D545050"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="1dp"/>
         <Button
             style="@style/Profile"
             android:layout_width="match_parent"
@@ -179,7 +200,11 @@
             android:drawablePadding="10dp"
             android:text="Change password"
             android:textAllCaps="false" />
-
+        <View
+            android:layout_width="match_parent"
+            android:background="#7D545050"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="1dp"/>
         <Button
             style="@style/Profile"
             android:layout_width="match_parent"
@@ -189,7 +214,11 @@
             android:drawablePadding="10dp"
             android:text="Two - Step Verification"
             android:textAllCaps="false" />
-
+        <View
+            android:layout_width="match_parent"
+            android:background="#7D545050"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="1dp"/>
         <Button
             android:id="@+id/SignOut"
             style="@style/Profile"

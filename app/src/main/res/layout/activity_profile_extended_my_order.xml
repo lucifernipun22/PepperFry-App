@@ -83,6 +83,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_height="250dp"/>
     <Button
+        android:id="@+id/BtnStartShoping"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:textStyle="bold"

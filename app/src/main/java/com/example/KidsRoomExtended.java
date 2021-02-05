@@ -30,7 +30,7 @@ public class KidsRoomExtended extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(KidsRoomExtended.this, WishListFragment.class);
+                intent = new Intent(KidsRoomExtended.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }

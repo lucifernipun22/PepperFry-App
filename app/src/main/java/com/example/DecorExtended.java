@@ -30,7 +30,7 @@ public class DecorExtended extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(DecorExtended.this, WishListFragment.class);
+                intent = new Intent(DecorExtended.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }

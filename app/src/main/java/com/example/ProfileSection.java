@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.example.pepperfry.R;
 
 public class ProfileSection extends AppCompatActivity {
+private Button mBTNStartShopping;
 
     private Intent intent;
     private ImageView ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
@@ -29,6 +30,7 @@ public class ProfileSection extends AppCompatActivity {
     }
 
     public void initViews() {
+        mBTNStartShopping = findViewById(R.id.btnMyOrder);
 
         ivHome = findViewById(R.id.ivHome);
         ivDepartments = findViewById(R.id.ivDepartment);
@@ -41,21 +43,29 @@ public class ProfileSection extends AppCompatActivity {
         EmailEdit = findViewById(R.id.EmailEdit);
         EditButton = findViewById(R.id.EditButton);
         SignOut = findViewById(R.id.SignOut);
+
+        mBTNStartShopping.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(ProfileSection.this,ProfileExtendedMyOrder.class);
+                startActivity(intent2);
+            }
+        });
         SignOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(ProfileSection.this, SignOutConfirm.class);
                 startActivity(intent);
-                finish();
+//                finish();
 
             }
         });
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(ProfileSection.this, WishListFragment.class);
+                intent = new Intent(ProfileSection.this, WhishList.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivHome.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +73,7 @@ public class ProfileSection extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(ProfileSection.this, HomeScreen.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
 
@@ -72,7 +82,7 @@ public class ProfileSection extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(ProfileSection.this, AlertsActivity.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivDepartments.setOnClickListener(new View.OnClickListener() {
@@ -80,7 +90,7 @@ public class ProfileSection extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(ProfileSection.this, DepartmentsActivity.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
 
@@ -90,7 +100,7 @@ public class ProfileSection extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(ProfileSection.this, ProfileSection.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
 
@@ -99,7 +109,7 @@ public class ProfileSection extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(ProfileSection.this, Furniture.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
     }
@@ -125,6 +135,5 @@ public class ProfileSection extends AppCompatActivity {
         String email = pref.getString(name.email, "454");
         EmailEdit.setText(email);
     }
-
 
 }

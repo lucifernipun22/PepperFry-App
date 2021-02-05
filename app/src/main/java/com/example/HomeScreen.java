@@ -113,7 +113,7 @@ public class HomeScreen extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent =new Intent(HomeScreen.this,WishListFragment.class);
+                intent =new Intent(HomeScreen.this,WhishList.class);
                 startActivity(intent);
                 finish();
             }

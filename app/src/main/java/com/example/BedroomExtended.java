@@ -31,7 +31,7 @@ public class BedroomExtended extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(BedroomExtended.this, WishListFragment.class);
+                intent = new Intent(BedroomExtended.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }

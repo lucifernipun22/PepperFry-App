@@ -64,7 +64,7 @@ public class DepartmentsActivity extends AppCompatActivity implements View.OnCli
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(DepartmentsActivity.this, WishListFragment.class);
+                intent = new Intent(DepartmentsActivity.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }

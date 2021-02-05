@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.ModularFurniture"></activity>
+        <activity android:name="com.example.WhishList"></activity>
+        <activity android:name="com.example.ModularFurniture" />
         <activity android:name="com.example.Lighting" />
         <activity android:name="com.example.Decor" />
         <activity android:name="com.example.Furnishings" />

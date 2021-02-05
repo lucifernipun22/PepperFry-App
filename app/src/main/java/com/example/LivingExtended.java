@@ -30,7 +30,7 @@ public class LivingExtended extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(LivingExtended.this, WishListFragment.class);
+                intent = new Intent(LivingExtended.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }

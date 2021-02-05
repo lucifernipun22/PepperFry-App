@@ -49,9 +49,9 @@ public class AlertsActivity extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(AlertsActivity.this, WishListFragment.class);
+                intent = new Intent(AlertsActivity.this, WhishList.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         ivHome.setOnClickListener(new View.OnClickListener() {

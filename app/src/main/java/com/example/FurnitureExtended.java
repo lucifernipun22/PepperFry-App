@@ -30,7 +30,7 @@ public class FurnitureExtended extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(FurnitureExtended.this, WishListFragment.class);
+                intent = new Intent(FurnitureExtended.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }

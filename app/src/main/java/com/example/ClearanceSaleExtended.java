@@ -30,7 +30,7 @@ public class ClearanceSaleExtended extends AppCompatActivity {
         ivWishList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(ClearanceSaleExtended.this, WishListFragment.class);
+                intent = new Intent(ClearanceSaleExtended.this, WhishList.class);
                 startActivity(intent);
                 finish();
             }
