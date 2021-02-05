@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.ProfileExtendedChangePassword">
+    tools:context="com.example.ProfileExtendedEditButton">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -39,56 +39,64 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="CHANGE PASSWORD"
+            android:text="EDIT ACCOUNT"
             android:textColor="#D2000000"
             android:textSize="16sp" />
-
     </RelativeLayout>
 
+
+
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="top"
+        android:hint="First Name"
+        android:padding="20dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="top"
+        android:hint="Last Name"
+        android:padding="20dp"
+        android:textSize="16sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
         android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:hint="Current Password"
         android:gravity="top"
+        android:hint="Mobile Number"
         android:padding="20dp"
-        android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
-        android:layout_marginHorizontal="15dp"
-        android:textSize="16sp"
-        android:layout_height="wrap_content"/>
+        android:textSize="16sp" />
     <EditText
         android:layout_width="match_parent"
-        android:hint="New Password"
-        android:gravity="top"
-
-        android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
-        android:textSize="16sp"
-        android:padding="20dp"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:hint="Confirm New Password"
-        android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
-        android:textSize="16sp"
-        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
         android:gravity="top"
+        android:hint="About Me"
         android:padding="20dp"
-        android:layout_height="wrap_content"/>
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+        android:textSize="16sp" />
 
-    <Button
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:text="DONE"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_alignParentBottom="true"
-        android:background="@color/dark_orange"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/dark_orange"
+            android:text="SAVE"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
 
 
 </LinearLayout>

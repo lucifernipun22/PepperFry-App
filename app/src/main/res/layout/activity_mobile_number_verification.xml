@@ -93,8 +93,6 @@
         app:oev_primary_color="@color/dark_orange"
         app:oev_secondary_color="@color/dark_orange" />
 
-
-
     <TextView
         android:id="@+id/tvOtpValidate"
         style="@style/Fira_font"
@@ -106,7 +104,7 @@
         android:textSize="12sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etOtp" />
+        app:layout_constraintTop_toBottomOf="@+id/etOtp"/>
 
     <TextView
         android:id="@+id/tvOtpnotReceive"

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.pepperfry.R;
 
-public class Furniture extends AppCompatActivity {
+public class Furniture extends AppCompatActivity{
     private TextView sofas;
     private TextView seating;
     private TextView chairs;

@@ -22,6 +22,8 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
     private ImageView mIvBackToRegistration, mIvShopCart, mIvSearchBar;
     private TextView mTvMobileVerification, mTvWaiting_otp,
             mTvMobileNumber, mTvOtpValidate, mTvOtpNotReceive, mTvOtpResend;
+
+    private GridLayout mGirdRow;
     private Button btnConfirm;
     private OtpEditText otpEditText;
     @Override
@@ -42,6 +44,7 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
         mTvOtpValidate = findViewById(R.id.tvOtpValidate);
         mTvOtpNotReceive = findViewById(R.id.tvOtpnotReceive);
         mTvOtpResend = findViewById(R.id.tvOtpResend);
+        
         otpEditText = findViewById(R.id.etOtp);
         btnConfirm =findViewById(R.id.buttonConfirm);
         mIvBackToRegistration.setOnClickListener(new View.OnClickListener() {
@@ -50,6 +53,12 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
                 Intent intent = new Intent(MobileNumberVerificationActivity.this,RegisterActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+        otpEditText.setOnCompleteListener(new OnCompleteListener() {
+            @Override
+            public void onComplete(String value) {
+                activityTriversalWithAnimation(StartShoppingActivity.class);
             }
         });
     setListeners();
@@ -65,12 +74,7 @@ public class MobileNumberVerificationActivity extends AppCompatActivity {
     boolean isButtonEnabled2 = false;
 
     private void setListeners() {
-        otpEditText.setOnCompleteListener(new OnCompleteListener() {
-            @Override
-            public void onComplete(String value) {
-                activityTriversalWithAnimation(StartShoppingActivity.class);
-            }
-        });
+
         btnConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

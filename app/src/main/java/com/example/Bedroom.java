@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import com.example.pepperfry.R;
 
-/*import com.example.pepperfry.R;*/
+import com.example.pepperfry.R;
 
 public class Bedroom extends AppCompatActivity {
     private ImageView back;

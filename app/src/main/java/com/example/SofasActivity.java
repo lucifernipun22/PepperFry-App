@@ -16,8 +16,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SofasActivity extends AppCompatActivity implements ItemClickListener {
-    private ImageView mIVLeftArrow, mIvSettings, mIvHeart, mIvAlert, mIvDepartment, mIvHome;
+    private ImageView ivClearance, ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
     private RecyclerView SofasRecyclerView;
+    private Intent intent;
+
     private List<AllSofas> sofasList = new ArrayList<>();
 
     @Override
@@ -30,18 +32,62 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
     }
 
     private void initViews() {
-        mIVLeftArrow = findViewById(R.id.ivLeftArrowSofas);
-        mIvSettings = findViewById(R.id.ivSettings);
-        mIvHeart = findViewById(R.id.ivHeart);
-        mIvAlert = findViewById(R.id.ivAlert);
-        mIvDepartment = findViewById(R.id.ivDepartment);
-        mIvHome = findViewById(R.id.ivHome);
+        back = findViewById(R.id.ivLeftArrowSofas);
+        ivHome = findViewById(R.id.ivHome);
+        ivDepartments = findViewById(R.id.ivDepartment);
+        ivAlerts = findViewById(R.id.ivAlert);
+        ivWishList = findViewById(R.id.ivHeart);
+        ivProfiles = findViewById(R.id.ivSettings);
         SofasRecyclerView = findViewById(R.id.RvAllSofas);
-        mIVLeftArrow.setOnClickListener(new View.OnClickListener() {
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SofasActivity.this, Furniture.class);
+                 intent = new Intent(SofasActivity.this, Furniture.class);
                 startActivity(intent);
+            }
+        });
+        ivWishList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,WhishList.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ivAlerts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,AlertsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivDepartments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(SofasActivity.this,DepartmentsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+
+
+        ivProfiles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(SofasActivity.this, ProfileSection.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
@@ -123,7 +169,35 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
 
     @Override
     public void onSofasClicked(AllSofas sofas) {
-        ShowToast(sofas.getBrand());
+        Intent intent0 = new Intent(SofasActivity.this, BuyActivity.class);
+        String Name = sofas.getTitle();
+        String Price = sofas.getPrice();
+        String Brand = sofas.getBrand();
+        String Dimension = sofas.getDimensions();
+        String Weight = sofas.getWeight();
+        String Warranty = sofas.getWarranty();
+        String Assembly = sofas.getAssembly();
+        String Primary_Material = sofas.getPrimary_Material();
+        String Room_Type = sofas.getRoom_Type();
+        String Collection = sofas.getCollection();
+        String Seating_Height = sofas.getSeating_Height();
+        String Sku = sofas.getSku();
+        String Image = sofas.getSofa_image();
+        intent0.putExtra("Name",Name);
+        intent0.putExtra("Price",Price);
+        intent0.putExtra("Dimension",Dimension);
+        intent0.putExtra("Weight",Weight);
+        intent0.putExtra("Warranty",Warranty);
+        intent0.putExtra("Assembly",Assembly);
+        intent0.putExtra("Primary_Material",Primary_Material);
+        intent0.putExtra("Room_Type",Room_Type);
+        intent0.putExtra("Collection",Collection);
+        intent0.putExtra("Brand",Brand);
+        intent0.putExtra("Seating_Height",Seating_Height);
+        intent0.putExtra("Sku",Sku);
+        intent0.putExtra("Image",Image);
+        startActivity(intent0);
+       /* ShowToast(sofas.getPrice());*/
     }
 
     public void ShowToast(String message) {

@@ -55,4 +55,5 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="cushions_cover"><![CDATA[Cushions & Cover]]></string>
+    <string name="get_extra"></string>
 </resources>
