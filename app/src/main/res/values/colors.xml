@@ -10,4 +10,9 @@
     <color name="bottom_action_background">#FFFFFFFF</color>
     <color name="dark_orange">#dc2f02</color>
     <color name="red">#ff0000</color>
+    <color name="light_orange">#e85d04</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#2A2A2A</color>
+    <color name="Yelow">#E5E63B</color>
 </resources>

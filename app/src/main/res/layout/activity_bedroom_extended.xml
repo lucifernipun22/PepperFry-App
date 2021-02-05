@@ -52,6 +52,7 @@
 
     </RelativeLayout>
     <Button
+        android:id="@+id/Beds"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,6 +63,7 @@
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/btnMattresses"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,6 +74,7 @@
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Furnishing"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -82,6 +85,7 @@
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Tables"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -92,6 +96,7 @@
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Cabinetry"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -102,6 +107,7 @@
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Decor"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -112,6 +118,7 @@
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/Lighting"
         style="@style/Departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

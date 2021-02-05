@@ -6,21 +6,25 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.pepperfry.R;
 
 public class DepartmentsActivity extends AppCompatActivity implements View.OnClickListener {
 
-private Button mBTNfurniture;
-private Button mBTNLiving;
-private Button mBTNBedRoom;
-private Button mBTNKidsRoom;
-private Button mBTNMattresses;
-private Button mBTNFurnishings;
-private Button mBTNDecor;
-private Button mBTNLightings;
-private Button mBTNModularFurniture;
-private Button mBTNClearanceSale;
+    private Button mBTNfurniture;
+    private Button mBTNLiving;
+    private Button mBTNBedRoom;
+    private Button mBTNKidsRoom;
+    private Button mBTNMattresses;
+    private Button mBTNFurnishings;
+    private Button mBTNDecor;
+    private Button mBTNLightings;
+    private Button mBTNModularFurniture;
+    private Button mBTNClearanceSale;
+    private Intent intent;
+    private ImageView ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,14 +55,70 @@ private Button mBTNClearanceSale;
         mBTNLightings.setOnClickListener(this);
         mBTNModularFurniture.setOnClickListener(this);
         mBTNClearanceSale.setOnClickListener(this);
+        ivHome = findViewById(R.id.ivHome);
+        ivDepartments = findViewById(R.id.ivDepartment);
+        ivAlerts = findViewById(R.id.ivAlert);
+        ivWishList = findViewById(R.id.ivHeart);
+        ivProfiles = findViewById(R.id.ivSettings);
+        back = findViewById(R.id.tvMenu_Navigation);
+        ivWishList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(DepartmentsActivity.this, WhishList.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(DepartmentsActivity.this, HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ivAlerts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(DepartmentsActivity.this, AlertsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivDepartments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(DepartmentsActivity.this, DepartmentsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
 
+        ivProfiles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(DepartmentsActivity.this, ProfileSection.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(DepartmentsActivity.this, Furniture.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
+
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.btnfurniture:
                 Intent intent = new Intent(DepartmentsActivity.this, FurnitureExtended.class);
                 startActivity(intent);
@@ -80,19 +140,19 @@ private Button mBTNClearanceSale;
                 startActivity(mattresses);
                 break;
             case R.id.btnFurnishings:
-                Intent furnishings = new Intent(DepartmentsActivity.this, FurnishingsExtended.class);
+                Intent furnishings = new Intent(DepartmentsActivity.this, Furnishings.class);
                 startActivity(furnishings);
                 break;
             case R.id.btnDecor:
-                Intent decor = new Intent(DepartmentsActivity.this, DecorExtended.class);
+                Intent decor = new Intent(DepartmentsActivity.this, Decor.class);
                 startActivity(decor);
                 break;
             case R.id.btnLightings:
-                Intent lightings = new Intent(DepartmentsActivity.this, LightingExtended.class);
+                Intent lightings = new Intent(DepartmentsActivity.this, Lighting.class);
                 startActivity(lightings);
                 break;
             case R.id.btnModularFurniture:
-                Intent modularfurniture = new Intent(DepartmentsActivity.this, ModularFurnitureExtended.class);
+                Intent modularfurniture = new Intent(DepartmentsActivity.this, ModularFurniture.class);
                 startActivity(modularfurniture);
                 break;
             case R.id.btnClearanceSale:
@@ -100,7 +160,7 @@ private Button mBTNClearanceSale;
                 startActivity(clearancesale);
                 break;
         }
-        
+
     }
 }
 

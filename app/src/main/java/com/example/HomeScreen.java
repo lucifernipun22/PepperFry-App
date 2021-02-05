@@ -2,8 +2,9 @@ package com.example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Notification;
 import android.content.Intent;
-import android.media.Image;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -13,6 +14,7 @@ import com.example.pepperfry.R;
 public class HomeScreen extends AppCompatActivity {
     private ImageView ivFurniture;
     private ImageView ivLiving;
+    private ImageView menuNavigation;
     private ImageView ivBedroom;
     private ImageView ivKidsRoom;
     private ImageView ivMattresses;
@@ -35,6 +37,7 @@ public class HomeScreen extends AppCompatActivity {
         ivFurnishing = findViewById(R.id.ivFurnishing);
         ivDecor = findViewById(R.id.ivDecor);
         ivLighting = findViewById(R.id.ivLighting);
+        menuNavigation=findViewById(R.id.tvMenu_Navigation);
         ivModular = findViewById(R.id.ivModularFurniture);
         ivClearance = findViewById(R.id.ivCleanserSale);
         ivHome = findViewById(R.id.ivHome);
@@ -43,13 +46,93 @@ public class HomeScreen extends AppCompatActivity {
         ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
         ivOffer = findViewById(R.id.offer);
+        ivBedroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Bedroom.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivKidsRoom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, KidsRoom.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivMattresses.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Mattresses.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivFurnishing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Furnishings.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivDecor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Decor.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivLighting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Lighting.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivModular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, ModularFurniture.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        menuNavigation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, NavigationActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivWishList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(HomeScreen.this,WhishList.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(HomeScreen.this,HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         ivAlerts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,AlertsActivity.class);
                 startActivity(intent);
-                finish();
+               finish();
             }
         });
         ivDepartments.setOnClickListener(new View.OnClickListener() {
@@ -57,15 +140,18 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent =new Intent(HomeScreen.this,DepartmentsActivity.class);
                 startActivity(intent);
-               finish();
+              finish();
             }
         });
-        ivOffer.setOnClickListener(new View.OnClickListener() {
+
+
+
+        ivProfiles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent=new Intent(HomeScreen.this,Furniture.class);
+                intent = new Intent(HomeScreen.this, ProfileSection.class);
                 startActivity(intent);
-                finish();
+               finish();
             }
         });
         ivFurniture.setOnClickListener(new View.OnClickListener() {
@@ -81,17 +167,17 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(HomeScreen.this, Living.class);
                 startActivity(intent);
-                finish();
+               finish();
             }
         });
-
-        ivProfiles.setOnClickListener(new View.OnClickListener() {
+        ivOffer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(HomeScreen.this, ProfileSection.class);
+                intent=new Intent(HomeScreen.this,Furniture.class);
                 startActivity(intent);
-                finish();
+               finish();
             }
         });
     }
+
 }

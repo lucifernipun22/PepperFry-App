@@ -29,6 +29,8 @@ public class Furniture extends AppCompatActivity {
     private ImageView DoorWardRobes;
     private ImageView DiningSetSix;
     private Intent intent;
+    private ImageView  ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles,back;
+
 
 
     @Override
@@ -56,6 +58,64 @@ public class Furniture extends AppCompatActivity {
         ModernWriting = findViewById(R.id.iventertainmentunit);
         DoorWardRobes = findViewById(R.id.ivhangingLights);
         DiningSetSix = findViewById(R.id.ivWallArt);
+        ivHome = findViewById(R.id.ivHome);
+        ivDepartments = findViewById(R.id.ivDepartment);
+        ivAlerts = findViewById(R.id.ivAlert);
+        ivWishList = findViewById(R.id.ivHeart);
+        ivProfiles = findViewById(R.id.ivSettings);
+        back=findViewById(R.id.tvLeftArrow);
+        ShoesRack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,shoe_rack.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivWishList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,WhishList.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ivAlerts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,AlertsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivDepartments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,DepartmentsActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+
+
+        ivProfiles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(Furniture.this, ProfileSection.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         sectionalSofas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,7 +124,23 @@ public class Furniture extends AppCompatActivity {
                 finish();
             }
         });
-
-
+        sofas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,SofasActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent =new Intent(Furniture.this,HomeScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
+
+
 }

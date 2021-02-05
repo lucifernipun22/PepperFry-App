@@ -74,84 +74,24 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvwaiting_otp" />
 
-    <GridLayout
-        android:id="@+id/gridRow"
+    <com.broooapps.otpedittext2.OtpEditText
+        android:id="@+id/etOtp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textColor="@color/dark_orange"
         android:layout_marginTop="60dp"
-        android:padding="20dp"
-        android:columnCount="6"
-        android:rowCount="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvMobileNumber">
-
-        <EditText
-            android:id="@+id/EtvFirstDigit"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/dark_orange"
-            android:layout_column="0"
-            android:inputType="number" />
-
-        <EditText
-            android:id="@+id/EtvSecondDigit"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/dark_orange"
-            android:layout_column="1"
-            android:inputType="number" />
-
-        <EditText
-            android:id="@+id/EtvThirdDigit"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/dark_orange"
-            android:layout_column="2"
-            android:inputType="number" />
-
-        <EditText
-            android:id="@+id/EtvFourthDigit"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/dark_orange"
-            android:layout_column="3"
-            android:inputType="number" />
-
-        <EditText
-            android:id="@+id/EtvFifthDigit"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/dark_orange"
-            android:layout_column="4"
-            android:inputType="number" />
-
-        <EditText
-            android:id="@+id/EtvSixthDigit"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/dark_orange"
-            android:layout_column="5"
-            android:inputType="number" />
-
-    </GridLayout>
+        android:cursorVisible="false"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:maxLength="6"
+        android:padding="8dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMobileNumber"
+        app:oev_primary_color="@color/dark_orange"
+        app:oev_secondary_color="@color/dark_orange" />
 
 
 
@@ -166,7 +106,7 @@
         android:textSize="12sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/gridRow" />
+        app:layout_constraintTop_toBottomOf="@id/etOtp" />
 
     <TextView
         android:id="@+id/tvOtpnotReceive"

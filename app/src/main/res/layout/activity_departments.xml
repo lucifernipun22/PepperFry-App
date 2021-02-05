@@ -21,7 +21,7 @@
         <ImageView
             android:id="@+id/tvMenu_Navigation"
             style="@style/discover_title_textStyle2"
-            android:background="@drawable/menu_naviagtion"
+            android:background="@drawable/ic_left_chevron"
             android:textColor="@color/black" />
 
         <ImageView

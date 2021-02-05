@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ProfileExtendedMyOrder">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/ic_left_arrow"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/ivShoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_shopping_cart"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toLeftOf="@id/ivShoppingCart"
+            android:background="@drawable/ic_magnifiying_glass"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvFurniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/imBack"
+            android:text="MY ORDERS"
+            android:textColor="#D2000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvNOOrderYet"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="@font/fira_sans"
+        android:layout_gravity="center_horizontal"
+        android:text="No Order Yet"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvYourOrder"
+        android:padding="20dp"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fira_sans"
+        android:layout_gravity="center_horizontal"
+        android:text="Your Order Is Feeling Lonely"
+        android:textColor="@color/black" />
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/empty_cart"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="250dp"/>
+    <Button
+        android:id="@+id/BtnStartShoping"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="@color/light_orange"
+        android:layout_margin="20dp"
+        android:background="@drawable/orange_rectangle"
+        android:text="START SHOPPING"
+        style="@style/strtShopping"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
