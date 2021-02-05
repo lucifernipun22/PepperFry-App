@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.shoe_rack">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            style="@style/actionbar_cardView_style"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tvFurniture"
+                style="@style/discover_title_textStyle3"
+                android:text="SHOE RACKS"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/tvLeftArrow"
+                style="@style/discover_title_textStyle2"
+                android:layout_width="28dp"
+                android:layout_height="23dp"
+                android:background="@drawable/ic_left_chevron"
+                android:textColor="@color/black" />
+
+
+            <ImageView
+                style="@style/overflow_icon_style"
+                android:src="@drawable/ic_shopping_cart" />
+            <androidx.appcompat.widget.SearchView
+                style="@style/overflow_icon_style2"
+                android:src="@drawable/ic_search" />
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
