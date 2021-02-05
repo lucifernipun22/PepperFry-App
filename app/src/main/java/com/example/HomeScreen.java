@@ -46,7 +46,62 @@ public class HomeScreen extends AppCompatActivity {
         ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
         ivOffer = findViewById(R.id.offer);
-        
+        ivBedroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Bedroom.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivKidsRoom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, KidsRoom.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivMattresses.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Mattresses.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivFurnishing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Furnishings.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivDecor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Decor.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivLighting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, Lighting.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        ivModular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent= new Intent(HomeScreen.this, ModularFurniture.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         menuNavigation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -417,6 +417,929 @@
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#c3c2c5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="MAKE A STATEMENT"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c2c3c5">
+
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="310dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivThreeSeater"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sectional_sofa"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvThreeSeater"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivThreeSeater"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="SECTIONAL SOFAS\nStarting ₹ 19900"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="310dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivFlowerLamp"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shoe_rack"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvFlowerLamp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivFlowerLamp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="SHOE RACKS\nStarting ₹ 800"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="310dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivCoffeeTables"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/chair"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sectional_sofa"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvCoffeeTables"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivCoffeeTables"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="OFFICE CHAIRS\nStarting ₹ 2400"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+</HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#c3c2c5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="IN THE SPOTLIGHT"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c2c3c5">
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivBestDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/storage"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivDiningRoom"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dining_room"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivBedRoom"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bed_room"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivLeatherTTE"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leather"
+
+                        />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#c3c2c5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="NEW ARRIVALS"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c2c3c5">
+
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="310dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/iventertainmentunit"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tables"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tventertainmentunit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iventertainmentunit"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="Modern Writing\nTables"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="310dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivhangingLights"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wardrobes"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvHangingLights"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivhangingLights"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="3 Door Wardrobes"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="310dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivWallArt"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/chair"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dining_tables"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvWallArt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivWallArt"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="6 Seater Dining\nSets"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#c3c2c5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="MOST POPULAR BRANDS"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c2c3c5">
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivWoodsWorth"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/woods_worth"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivMudraMark"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mudrakmark"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivCaseCraft"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/casecraft"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivMintWud"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mintwud"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivDurian"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/durian"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivSpaceWood"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/space_wood"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivhome"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/home"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivAmberVille"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ambervilla"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rectangle_round" />
+
+                    <ImageView
+                        android:id="@+id/ivFF"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ff"
+
+                        />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#c3c2c5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="FEATURED COLLECTIONS"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c2c3c5">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="330dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/ivAndres"
+                        android:layout_width="230dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="3dp"
+
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/siramika"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvAndres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginStart="11dp"
+                        android:gravity="start"
+                        android:text="Collection\nSIRAMIKA"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/ivAndres"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/ivAndres"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="330dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/ivRapid"
+                        android:layout_width="230dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="3dp"
+
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sofa"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvRapid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginStart="11dp"
+                        android:gravity="start"
+                        android:text="Collection\nTANAKA"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/ivRapid"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/ivRapid"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="330dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/ivAura"
+                        android:layout_width="230dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="3dp"
+
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/industrial"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvAura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginStart="11dp"
+                        android:gravity="start"
+                        android:text="Collection\nINDUSTRIAL LITE "
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/ivAura"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/ivAura"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#c3c2c5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="CONSULTING SOLUTIONS"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c2c3c5">
+
+                <RelativeLayout
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivFindStudio"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/find_studio"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvFindStudio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivFindStudio"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="FIND A STUDIO"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvFindStudio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvFindStudio"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="Walk in to your Nearest Studio\nPepperfry"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivBuysOnPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/buy_on_phone"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvBuysOnPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivBuysOnPhone"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="BUY ON PHONE"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvBuysOnPhone2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvBuysOnPhone"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="Talk to Our Experts for a Free\nConsultation"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="180dp"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivModularFurniture"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/img_black"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/modular_furniture"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvModularFurniture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivModularFurniture"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="MODULAR FURNITURE"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvModularFurniture2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvModularFurniture"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="Get Customized Modular\nKitchens and Wardrobe"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+            </HorizontalScrollView>
         </LinearLayout>
 
 
