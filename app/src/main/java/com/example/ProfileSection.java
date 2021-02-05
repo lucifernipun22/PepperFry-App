@@ -13,7 +13,10 @@ import android.widget.TextView;
 import com.example.pepperfry.R;
 
 public class ProfileSection extends AppCompatActivity {
-private Button mBTNStartShopping;
+private Button mBTNMyOrder;
+private Button mBTNTrackOrder;
+private Button mBTNWhishList;
+private Button mBTNAddressBook;
 
     private Intent intent;
     private ImageView ivHome, ivDepartments, ivAlerts, ivWishList, ivProfiles, back;
@@ -30,7 +33,10 @@ private Button mBTNStartShopping;
     }
 
     public void initViews() {
-        mBTNStartShopping = findViewById(R.id.btnMyOrder);
+        mBTNMyOrder = findViewById(R.id.btnMyOrder);
+        mBTNTrackOrder = findViewById(R.id.btnTrackOrder);
+        mBTNWhishList = findViewById(R.id.btnWhishList);
+        mBTNAddressBook = findViewById(R.id.btnAddressBook);
 
         ivHome = findViewById(R.id.ivHome);
         ivDepartments = findViewById(R.id.ivDepartment);
@@ -44,13 +50,7 @@ private Button mBTNStartShopping;
         EditButton = findViewById(R.id.EditButton);
         SignOut = findViewById(R.id.SignOut);
 
-        mBTNStartShopping.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent2 = new Intent(ProfileSection.this,ProfileExtendedMyOrder.class);
-                startActivity(intent2);
-            }
-        });
+
         SignOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -110,6 +110,35 @@ private Button mBTNStartShopping;
                 intent = new Intent(ProfileSection.this, Furniture.class);
                 startActivity(intent);
 //                finish();
+            }
+        });
+
+        mBTNMyOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(ProfileSection.this,ProfileExtendedMyOrder.class);
+                startActivity(intent2);
+            }
+        });
+        mBTNTrackOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(ProfileSection.this,ProfileExtendedTrackOrder.class);
+                startActivity(intent3);
+            }
+        });
+        mBTNWhishList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4 = new Intent(ProfileSection.this,WhishList.class);
+                startActivity(intent4);
+            }
+        });
+        mBTNAddressBook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4 = new Intent(ProfileSection.this,ProfileExtendedAddressBook.class);
+                startActivity(intent4);
             }
         });
     }

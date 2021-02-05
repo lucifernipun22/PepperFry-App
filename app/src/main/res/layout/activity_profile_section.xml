@@ -150,6 +150,7 @@
             android:layout_marginHorizontal="25dp"
             android:layout_height="1dp"/>
         <Button
+            android:id="@+id/btnWhishList"
             style="@style/Profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -179,6 +180,7 @@
             android:layout_height="1dp"/>
         <Button
             style="@style/Profile"
+            android:id="@+id/btnAddressBook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_phone_book"

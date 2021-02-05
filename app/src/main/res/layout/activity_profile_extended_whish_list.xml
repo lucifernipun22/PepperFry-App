@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.WhishList">
+    android:orientation="vertical"
+    tools:context="com.example.ProfileExtendedAddressBook">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,15 +31,6 @@
             android:background="@drawable/ic_shopping_cart"
             android:padding="10dp" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="10dp"
-            android:layout_toLeftOf="@id/ivShoppingCart"
-            android:background="@drawable/ic_magnifiying_glass"
-            android:padding="10dp" />
-
         <TextView
             android:id="@+id/tvFurniture"
             android:layout_width="match_parent"
@@ -48,11 +39,12 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:layout_toEndOf="@+id/imBack"
-            android:text="WHISHLIST"
+            android:text="ADDRESS BOOK"
             android:textColor="#D2000000"
             android:textSize="16sp" />
 
     </RelativeLayout>
+
 
     <TextView
         android:id="@+id/tvNOOrderYet"
@@ -62,7 +54,7 @@
         android:textSize="16sp"
         android:fontFamily="@font/fira_sans"
         android:layout_gravity="center_horizontal"
-        android:text="Your Whishlist Is Empty"
+        android:text="Your Address Book Is Empty"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
@@ -74,12 +66,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/fira_sans"
         android:layout_gravity="center_horizontal"
-        android:text="Explore More And Shortlist Somr Items"
+        android:text="Feed Your Adress And Sart Shopping "
         android:textColor="@color/black" />
     <ImageView
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
-        android:src="@drawable/whishlist"
+        android:src="@drawable/addresssbok"
         android:layout_gravity="center_horizontal"
         android:layout_height="250dp"/>
     <Button
@@ -90,7 +82,7 @@
         android:textColor="@color/light_orange"
         android:layout_margin="20dp"
         android:background="@drawable/orange_rectangle"
-        android:text="START SHOPPING"
+        android:text="NEW ADDRESS BOOK"
         style="@style/strtShopping"
         android:layout_height="wrap_content"/>
 
@@ -230,6 +222,7 @@
             app:layout_constraintHorizontal_bias="0.89"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 </LinearLayout>
