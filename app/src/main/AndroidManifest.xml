@@ -11,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.ProfileExtendedChangePassword"></activity>
+        <activity android:name="com.example.ProfileExtendedChangePassword">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+
+
+        </activity>
         <activity android:name="com.example.ProfileExtendedAddressBook" />
         <activity android:name="com.example.WhishList" />
         <activity android:name="com.example.ModularFurniture" />
