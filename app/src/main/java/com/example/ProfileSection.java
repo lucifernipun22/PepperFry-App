@@ -175,21 +175,21 @@ public class ProfileSection extends AppCompatActivity {
     private void setName() {
         sharedPrefNames name = new sharedPrefNames();
         SharedPreferences pref = getSharedPreferences(name.SHARED_PREF_NAME, MODE_PRIVATE);
-        String Name = pref.getString(name.Name, "454");
+        String Name = pref.getString(name.Name, "");
         NameEdit.setText(Name);
     }
 
     private void setNumber() {
         sharedPrefNames name = new sharedPrefNames();
         SharedPreferences pref = getSharedPreferences(name.SHARED_PREF_NAME, MODE_PRIVATE);
-        String phoneNumber = pref.getString(name.phoneNumber, "454");
+        String phoneNumber = pref.getString(name.phoneNumber, "");
         NumberEdit.setText(phoneNumber);
     }
 
     private void setEmail() {
         sharedPrefNames name = new sharedPrefNames();
         SharedPreferences pref = getSharedPreferences(name.SHARED_PREF_NAME, MODE_PRIVATE);
-        String email = pref.getString(name.email, "454");
+        String email = pref.getString(name.email, "");
         EmailEdit.setText(email);
     }
 

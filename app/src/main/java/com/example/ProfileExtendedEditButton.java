@@ -54,21 +54,21 @@ public class ProfileExtendedEditButton extends AppCompatActivity {
     private void setName() {
         sharedPrefNames name = new sharedPrefNames();
         SharedPreferences pref = getSharedPreferences(name.SHARED_PREF_NAME, MODE_PRIVATE);
-        String Nameed = pref.getString(name.Name, "454");
+        String Nameed = pref.getString(name.Name, "");
         Name.setText(Nameed);
     }
 
     private void setNumber() {
         sharedPrefNames name = new sharedPrefNames();
         SharedPreferences pref = getSharedPreferences(name.SHARED_PREF_NAME, MODE_PRIVATE);
-        String phoneNumber = pref.getString(name.phoneNumber, "454");
+        String phoneNumber = pref.getString(name.phoneNumber, "");
         Number.setText(phoneNumber);
     }
 
     private void setEmail() {
         sharedPrefNames name = new sharedPrefNames();
         SharedPreferences pref = getSharedPreferences(name.SHARED_PREF_NAME, MODE_PRIVATE);
-        String email = pref.getString(name.email, "454");
+        String email = pref.getString(name.email, "");
         Email.setText(email);
     }
 }
