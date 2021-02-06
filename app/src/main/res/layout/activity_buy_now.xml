@@ -17,7 +17,7 @@
                android:layout_height="wrap_content">
 
                <ImageView
-                   android:id="@+id/IvBackToBuy"
+                   android:id="@+id/IvBackToBuyNow"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    app:layout_constraintTop_toTopOf="parent"
@@ -36,7 +36,7 @@
                    android:textColor="@color/light_orange"
                    android:layout_margin="20dp"
                    android:padding="10dp"
-                   app:layout_constraintLeft_toRightOf="@id/IvBackToBuy"
+                   app:layout_constraintLeft_toRightOf="@id/IvBackToBuyNow"
                    app:layout_constraintTop_toTopOf="parent"/>
 
            </androidx.constraintlayout.widget.ConstraintLayout>

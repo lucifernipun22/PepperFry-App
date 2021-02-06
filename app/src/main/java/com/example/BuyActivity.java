@@ -1,7 +1,9 @@
 package com.example;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -20,7 +22,7 @@ public class BuyActivity extends AppCompatActivity {
             TvWarranty_Details, TvPrimaryMaterial_Details, TvRoomTypel_Details, TvCollection_Details, Tv_SeatingHeight_Details, Tv_Sku_Details;
     private EditText EtvPincode;
     private Button BtnPincode, BtnAddToCard, BtnBuyNow;
-    String Name,Price;
+    String Name, Price;
     String Brand;
     String Dimension;
     String Weight;
@@ -65,11 +67,11 @@ public class BuyActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(BuyActivity.this, BuyNowActivity.class);
-                intent1.putExtra("Name",Name);
-                intent1.putExtra("Price",Price);
-                intent1.putExtra("Brand",Brand);
-                intent1.putExtra("Warranty",Name);
-                intent1.putExtra("Image",Image);
+                intent1.putExtra("Name", Name);
+                intent1.putExtra("Price", Price);
+                intent1.putExtra("Brand", Brand);
+                intent1.putExtra("Warranty", Name);
+                intent1.putExtra("Image", Image);
                 startActivity(intent1);
             }
         });
@@ -84,12 +86,30 @@ public class BuyActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(BuyActivity.this, BuyNowActivity.class);
-                intent1.putExtra("Name",Name);
-                intent1.putExtra("Price",Price);
-                intent1.putExtra("Brand",Brand);
-                intent1.putExtra("Warranty",Warranty);
-                intent1.putExtra("Image",Image);
+                intent1.putExtra("Name", Name);
+                intent1.putExtra("Price", Price);
+                intent1.putExtra("Brand", Brand);
+                intent1.putExtra("Warranty", Warranty);
+                intent1.putExtra("Image", Image);
                 startActivity(intent1);
+            }
+        });
+        BtnPincode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String Pin = EtvPincode.getText().toString();
+                if (Pin.isEmpty()) {
+                    EtvPincode.setError("Pin Code Can't Be Empty");
+                } else {
+                    AlertDialog.Builder alertDialog = new AlertDialog.Builder(BuyActivity.this);
+                    alertDialog.setTitle("Deliver Available At " + Pin)
+                            .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    ShowToast("Delivery Available");
+                                }
+                            }).show();
+                }
             }
         });
     }
@@ -108,7 +128,7 @@ public class BuyActivity extends AppCompatActivity {
             Collection = getIntent().getStringExtra("Collection");
             Seating_Height = getIntent().getStringExtra("Seating_Height");
             Sku = getIntent().getStringExtra("Sku");
-             Image = getIntent().getStringExtra("Image");
+            Image = getIntent().getStringExtra("Image");
             TvItemName.setText(Name);
             TvItemBrand.setText(Brand + " by Pepperfty");
             TvItemPrice.setText("₹ " + Price);
@@ -121,7 +141,7 @@ public class BuyActivity extends AppCompatActivity {
             TvRoomTypel_Details.setText(Room_Type);
             Tv_SeatingHeight_Details.setText(Seating_Height);
             Tv_Sku_Details.setText(Sku);
-          /*  TvCollection_Details.setText(Collection);*/
+            /*  TvCollection_Details.setText(Collection);*/
             Glide.with(IvItemImage).load(Image).into(IvItemImage);
            /* ShowToast("Name:"+Name+"\n"+"Price "+Price+"\n"+"Brand "+Brand+"\n"+"Dimension"+Dimension+"\n"+"Weight"+"\n"+Weight+"\n"+"" +
                     "Warranty"+Warranty+"\n"+"Assembly"+Assembly+"\n"+"Primary_Material"+Primary_Material+"\n"+"Room_Type"+Room_Type+"\n"+

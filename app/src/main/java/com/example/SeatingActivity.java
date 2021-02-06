@@ -154,7 +154,7 @@ public class SeatingActivity extends AppCompatActivity implements ItemClickListe
 
     @Override
     public void onSeatsClicked(AllSeats seats) {
-        ShowToast(seats.getPrice());
+       /* ShowToast(seats.getPrice());*/
         Intent intent0 = new Intent(SeatingActivity.this, BuyActivity.class);
         String Name = seats.getTitle();
         String Price = seats.getPrice();
