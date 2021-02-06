@@ -11,21 +11,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
+        <activity android:name="com.example.WebViewFacebook"></activity>
+        <activity android:name="com.example.WebViewGoogle" />
+        <activity android:name="com.example.SeatingActivity">
+
+        </activity>
+        <activity android:name="com.example.BuyNowActivity" />
+        <activity android:name="com.example.BuyActivity" />
+        <activity android:name="com.example.SofasActivity"></activity>
+        <activity android:name="com.example.SectionalSofas" />
+        <activity android:name="com.example.ProfileExtendedChangePassword" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
         <activity android:name="com.example.ProfileExtendedMyWallet">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
 
 
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
 
         </activity>
         <activity android:name="com.example.ProfileExtendedEditButton" />
-        <activity android:name="com.example.BuyNowActivity" />
-        <activity android:name="com.example.BuyActivity" />
-        <activity android:name="com.example.SofasActivity" />
-        <activity android:name="com.example.SectionalSofas" />
         <activity android:name="com.example.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ProfileExtendedChangePassword" />
         <activity android:name="com.example.ProfileExtendedMyOrder" />
         <activity android:name="com.example.ProfileExtendedTrackOrder" />
         <activity android:name="com.example.ProfileExtendedAddressBook" />
@@ -69,9 +77,7 @@
 
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
-        <activity android:name="com.example.AlertsActivity">
-
-        </activity>
+        <activity android:name="com.example.AlertsActivity" />
         <activity android:name="com.example.BedroomExtended" />
         <activity android:name="com.example.ClearanceSaleExtended" />
         <activity android:name="com.example.FurnishingsExtended" />

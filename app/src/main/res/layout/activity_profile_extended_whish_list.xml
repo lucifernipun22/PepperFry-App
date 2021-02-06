@@ -90,9 +90,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_gravity="bottom"
-        android:layout_marginTop="110dp">
+        android:layout_marginTop="80dp">
 
         <View
             android:id="@+id/bottomActionbarDiscover"
@@ -178,7 +177,7 @@
             android:id="@+id/ivHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/heart_orange"
+            android:src="@drawable/ic_heart"
             app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
             app:layout_constraintEnd_toStartOf="@+id/ivSettings"
             app:layout_constraintHorizontal_bias="0.5"
@@ -191,7 +190,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:text="@string/wishlist"
-            android:textColor="@color/light_orange"
+            android:textColor="@color/black"
             android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
@@ -202,7 +201,7 @@
             android:id="@+id/ivSettings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_user"
+            android:src="@drawable/ic_user_orange"
             app:layout_constraintBottom_toBottomOf="@id/bottomActionbarDiscover"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -215,13 +214,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:text="@string/profile"
-            android:textColor="@color/black"
+            android:textColor="@color/dark_orange"
             android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/bottomActionbarDiscover"
             app:layout_constraintHorizontal_bias="0.89"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 

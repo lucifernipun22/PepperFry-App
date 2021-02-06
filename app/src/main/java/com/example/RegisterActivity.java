@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.pepperfry.R;
 
@@ -49,6 +50,20 @@ public class RegisterActivity extends AppCompatActivity {
         btnRegister = findViewById(R.id.button);
         btnFacebook = findViewById(R.id.fb);
         btnGoogle = findViewById(R.id.google);
+        btnGoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(RegisterActivity.this,WebViewGoogle.class);
+                startActivity(intent);
+            }
+        });
+        btnFacebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(RegisterActivity.this,WebViewFacebook.class);
+                startActivity(intent);
+            }
+        });
         setListeners();
         setTextChangeListener();
         setTextChangeListener1();
@@ -197,8 +212,14 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        btnFacebook.setOnClickListener(v -> urlOpener("https://www.facebook.com/"));
-        btnGoogle.setOnClickListener(v -> urlOpener("https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession"));
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+      //  Toast.makeText(this,"This will interview with exiting from the app",Toast.LENGTH_LONG).show();
+        super.onBackPressed();
     }
 
     private void urlOpener(String url) {

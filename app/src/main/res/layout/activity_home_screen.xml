@@ -27,9 +27,20 @@
         <ImageView
             style="@style/overflow_icon_style"
             android:src="@drawable/ic_shopping_cart" />
-        <androidx.appcompat.widget.SearchView
-            style="@style/overflow_icon_style2"
-            android:src="@drawable/ic_search" />
+
+            <androidx.appcompat.widget.SearchView
+                style="@style/SearchViewStyle"
+                android:id="@+id/searchView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="17sp"
+                android:layout_marginEnd="67dp"
+                android:layout_marginBottom="17sp"
+                android:layout_gravity="center|end"
+                />
+
+
+
     </androidx.cardview.widget.CardView>
 
     <View

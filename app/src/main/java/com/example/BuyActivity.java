@@ -20,8 +20,7 @@ public class BuyActivity extends AppCompatActivity {
             TvWarranty_Details, TvPrimaryMaterial_Details, TvRoomTypel_Details, TvCollection_Details, Tv_SeatingHeight_Details, Tv_Sku_Details;
     private EditText EtvPincode;
     private Button BtnPincode, BtnAddToCard, BtnBuyNow;
-    String Name;
-    String Price;
+    String Name,Price;
     String Brand;
     String Dimension;
     String Weight;
@@ -88,7 +87,7 @@ public class BuyActivity extends AppCompatActivity {
                 intent1.putExtra("Name",Name);
                 intent1.putExtra("Price",Price);
                 intent1.putExtra("Brand",Brand);
-                intent1.putExtra("Warranty",Name);
+                intent1.putExtra("Warranty",Warranty);
                 intent1.putExtra("Image",Image);
                 startActivity(intent1);
             }

@@ -72,7 +72,7 @@
 
         <EditText
             android:id="@+id/Name"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginLeft="20dp"
@@ -104,7 +104,7 @@
 
         <EditText
             android:id="@+id/Mobile"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginLeft="20dp"
@@ -138,7 +138,7 @@
 
         <EditText
             android:id="@+id/Email"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginLeft="20dp"
@@ -171,6 +171,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/dark_orange"
             android:layout_gravity="bottom"
             >
             <EditText

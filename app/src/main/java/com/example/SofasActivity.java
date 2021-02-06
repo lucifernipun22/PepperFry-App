@@ -33,17 +33,25 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
 
     private void initViews() {
         back = findViewById(R.id.ivLeftArrowSofas);
-        ivHome = findViewById(R.id.ivHome);
-        ivDepartments = findViewById(R.id.ivDepartment);
-        ivAlerts = findViewById(R.id.ivAlert);
-        ivWishList = findViewById(R.id.ivHeart);
         ivProfiles = findViewById(R.id.ivSettings);
+        ivWishList = findViewById(R.id.ivHeart);
+        ivAlerts = findViewById(R.id.ivAlert);
+        ivDepartments = findViewById(R.id.ivDepartment);
+        ivHome = findViewById(R.id.ivHome);
         SofasRecyclerView = findViewById(R.id.RvAllSofas);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 intent = new Intent(SofasActivity.this, Furniture.class);
+                intent = new Intent(SofasActivity.this, Furniture.class);
                 startActivity(intent);
+            }
+        });
+        ivProfiles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(SofasActivity.this, ProfileSection.class);
+                startActivity(intent);
+                finish();
             }
         });
         ivWishList.setOnClickListener(new View.OnClickListener() {
@@ -51,43 +59,6 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
             public void onClick(View v) {
                 intent =new Intent(SofasActivity.this,WhishList.class);
                 startActivity(intent);
-                finish();
-            }
-        });
-        ivHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent =new Intent(SofasActivity.this,HomeScreen.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        ivAlerts.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent =new Intent(SofasActivity.this,AlertsActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        ivDepartments.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent =new Intent(SofasActivity.this,DepartmentsActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-
-
-        ivProfiles.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent = new Intent(SofasActivity.this, ProfileSection.class);
-                startActivity(intent);
-                finish();
             }
         });
     }
@@ -198,6 +169,11 @@ public class SofasActivity extends AppCompatActivity implements ItemClickListene
         intent0.putExtra("Image",Image);
         startActivity(intent0);
        /* ShowToast(sofas.getPrice());*/
+    }
+
+    @Override
+    public void onSeatsClicked(AllSeats seats) {
+
     }
 
     public void ShowToast(String message) {
