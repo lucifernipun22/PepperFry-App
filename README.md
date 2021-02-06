@@ -1,6 +1,7 @@
 # PepperFry-App
 
 #Dependency 
+
 dependencies {
 
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -14,13 +15,21 @@ dependencies {
 }
 
 #Uses To Build Project
+
 Animation in Splash Screen.
+
 Password Toggle.
+
 WebView to Login With Facebook or Google.
+
 Glide.
+
 SavedInstance.
+
 Alert Dialog.
+
 Recycle View.
+
 Fragments.
 
 #Screenshots 
