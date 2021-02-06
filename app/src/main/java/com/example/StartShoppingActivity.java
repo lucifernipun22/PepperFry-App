@@ -6,9 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.pepperfry.R;
+import com.github.ybq.android.spinkit.sprite.Sprite;
+import com.github.ybq.android.spinkit.style.DoubleBounce;
+import com.github.ybq.android.spinkit.style.WanderingCubes;
 
 public class StartShoppingActivity extends AppCompatActivity {
 private Button mBtnStartShopping;
@@ -17,6 +21,7 @@ private Button mBtnStartShopping;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_shopping);
         initViews();
+
     }
 
     private void initViews() {

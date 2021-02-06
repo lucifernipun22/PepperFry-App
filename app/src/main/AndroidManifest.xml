@@ -11,15 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PepperFry">
-        <activity android:name="com.example.PaymentActivity"></activity>
-        <activity android:name="com.example.PlaceOrderActivity" />
-        <activity android:name="com.example.SeatingActivity" />
+        <activity android:name="com.example.WebViewFacebook"></activity>
+        <activity android:name="com.example.WebViewGoogle" />
+        <activity android:name="com.example.SeatingActivity">
+
+        </activity>
         <activity android:name="com.example.BuyNowActivity" />
-        <activity android:name="com.example.BuyActivity" ></activity>
-        <activity android:name="com.example.SofasActivity" />
+        <activity android:name="com.example.BuyActivity" />
+        <activity android:name="com.example.SofasActivity"></activity>
         <activity android:name="com.example.SectionalSofas" />
-        <activity android:name="com.example.ProfileExtendedChangePassword" />
-        <activity android:name="com.example.ProfileExtendedMyWallet" />
+        <activity android:name="com.example.ProfileExtendedChangePassword" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <activity android:name="com.example.ProfileExtendedMyWallet">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
         <activity android:name="com.example.ProfileExtendedEditButton" />
         <activity android:name="com.example.SplashScreen">
             <intent-filter>
@@ -42,7 +56,16 @@
         <activity android:name="com.example.shoe_rack" />
         <activity android:name="com.example.SignOutConfirm" /> <!-- <activity android:name="com.example.SectionalSofas" /> -->
         <activity android:name="com.example.ProfileSection" />
-        <activity android:name="com.example.LoginOrRegister" />
+        <activity android:name="com.example.LoginOrRegister">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
         <activity android:name="com.example.DecorExtended" />
         <activity android:name="com.example.StartShoppingActivity" />
         <activity android:name="com.example.MobileNumberVerificationActivity" />
@@ -51,6 +74,7 @@
         <activity android:name="com.example.Living" />
         <activity android:name="com.example.Furniture" />
         <activity android:name="com.example.HomeScreen" />
+
         <activity android:name="com.example.RegisterActivity" />
         <activity android:name="com.example.MainActivity" />
         <activity android:name="com.example.AlertsActivity" />
