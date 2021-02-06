@@ -12,6 +12,7 @@ dependencies {
     implementation 'com.github.ybq:Android-SpinKit:1.4.0'
 
 }
+
 #Uses To Build Project
 Animation in Splash Screen.
 Password Toggle.
@@ -21,4 +22,5 @@ SavedInstance.
 Alert Dialog.
 Recycle View.
 Fragments.
+
 #Screenshots 
