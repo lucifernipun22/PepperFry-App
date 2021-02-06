@@ -20,6 +20,8 @@
         <activity android:name="com.example.BuyActivity" />
         <activity android:name="com.example.SofasActivity"></activity>
         <activity android:name="com.example.SectionalSofas" />
+        <activity android:name="com.example.PlaceOrderActivity"/>
+        <activity android:name="com.example.PaymentActivity"/>
         <activity android:name="com.example.ProfileExtendedChangePassword" /> <!-- <intent-filter> -->
         <!-- <action android:name="android.intent.action.MAIN" /> -->
         <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
