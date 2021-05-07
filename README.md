@@ -1,4 +1,31 @@
-# PepperFry-App
+# PepperFry-App Clone    (E-Commerce App)
+
+#### Pepperfry is an online home and lifestyle furniture shopping store.
+
+## Technologies
+* Java
+* Glide 
+* Alert Dialog
+* Intent
+* Recycle View
+* Nested Scroll
+* WebView
+
+
+## Features
+* Here you can buy all types of home furniture buy online.
+* You can see section wise furnitures.
+* Details about every furniture item are are available in the app.
+
+## Screenshots
+
+|**Registration Screen**|**Registration Success Screen**|**Home Screen**|**Sofas Section Screen**|
+|:---|:--|:--|:--|
+|<img src=https://miro.medium.com/max/418/1*EEMNorsZMNg8CX04Twxfug.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*FB-u1A79smTlReyEobUMHQ.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*SPmvr7NmA__BB2YdLOJgzg.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*rJT7_0K5eGB_t0AewZJA2g.jpeg height="500px" width="350px"/>|
+
+<br/><br/>
+
+<!--# PepperFry-App
 
 #Dependency 
 
