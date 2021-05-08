@@ -19,9 +19,13 @@
 
 ## Screenshots
 
-|**Registration Screen**|**Congratulations Screen**|**Home Screen**|**Sofas Section Screen**|
-|:---|:--|:--|:--|
-|<img src=https://miro.medium.com/max/418/1*EEMNorsZMNg8CX04Twxfug.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*FB-u1A79smTlReyEobUMHQ.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*SPmvr7NmA__BB2YdLOJgzg.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*rJT7_0K5eGB_t0AewZJA2g.jpeg height="500px" width="350px"/>|
+|**Registration Screen**|**Congratulations Screen**|
+|:---|:--|
+|<img src=https://miro.medium.com/max/418/1*EEMNorsZMNg8CX04Twxfug.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*FB-u1A79smTlReyEobUMHQ.jpeg height="500px" width="350px"/>
+
+|**Home Screen**|**Sofas Section Screen**|
+|:--|:--|
+|<img src=https://miro.medium.com/max/418/1*SPmvr7NmA__BB2YdLOJgzg.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*rJT7_0K5eGB_t0AewZJA2g.jpeg height="500px" width="350px"/>|
 
 <br/><br/>
 
