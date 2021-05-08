@@ -52,7 +52,7 @@ dependencies {
 ![test1](https://miro.medium.com/max/418/1*rJT7_0K5eGB_t0AewZJA2g.jpeg)
 ![test1](https://miro.medium.com/max/418/1*EEMNorsZMNg8CX04Twxfug.jpeg);
 
-
+[![Watch the video](https://github.com/lucifernipun22/PepperFry-App/blob/main/Screenshot%20(21).png)](https://www.youtube.com/watch?v=CzMT_ekBqes)
 #Uses To Build Project
 
 Animation in Splash Screen.
