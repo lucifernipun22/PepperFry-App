@@ -16,6 +16,7 @@
 * Here you can buy all types of home furniture buy online.
 * You can see section wise furnitures.
 * Details about every furniture item are are available in the app.
+[![Watch the video](https://github.com/lucifernipun22/PepperFry-App/blob/main/Screenshot%20(21).png)](https://www.youtube.com/watch?v=CzMT_ekBqes)
 
 ## Screenshots
 
@@ -45,6 +46,8 @@ dependencies {
 
 }
 
+
+
 #Screenshots
 
 ![mydigital(2)](https://miro.medium.com/max/418/1*FB-u1A79smTlReyEobUMHQ.jpeg);
@@ -52,7 +55,9 @@ dependencies {
 ![test1](https://miro.medium.com/max/418/1*rJT7_0K5eGB_t0AewZJA2g.jpeg)
 ![test1](https://miro.medium.com/max/418/1*EEMNorsZMNg8CX04Twxfug.jpeg);
 
-[![Watch the video](https://github.com/lucifernipun22/PepperFry-App/blob/main/Screenshot%20(21).png)](https://www.youtube.com/watch?v=CzMT_ekBqes)
+
+
+
 #Uses To Build Project
 
 Animation in Splash Screen.
