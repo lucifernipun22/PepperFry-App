@@ -20,6 +20,8 @@
 
 ## Screenshots
 
+![test](https://miro.medium.com/max/875/1*XPM6wnZdgwlFiBo0ZbG6Lw.jpeg)
+
 |**Registration Screen**|**Congratulations Screen**|
 |:---|:--|
 |<img src=https://miro.medium.com/max/418/1*EEMNorsZMNg8CX04Twxfug.jpeg height="500px" width="350px"/>|<img src=https://miro.medium.com/max/418/1*FB-u1A79smTlReyEobUMHQ.jpeg height="500px" width="350px"/>
